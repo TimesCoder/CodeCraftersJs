@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 body {
@@ -23,6 +24,12 @@ h1, h2 {
 
 h3 {
     color: #999;
+}
+
+.login-link {
+    position: relative;
+    width: 50px;
+    height: 50px;
 }
 
 .btn {
@@ -63,26 +70,56 @@ th,td {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 20px; 
 }
 
-.side-menu .brand-name {
-    height: 10vh;
+.brand-name {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.brand-name img {
+    width: 50px;
+    height: 50px;
+}
+
+.brand-name p {
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-link {
+    font-size: 20px; 
+    text-decoration: none; 
+    color: white; 
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .side-menu li {
-    font-size: 24px;
-    padding: 10px 40px;
+    font-size: 20px; 
+    padding: 25px 0;
     color: white;
     display: flex;
     align-items: center;
 }
 
+.side-menu li img {
+    margin-right: 10px;
+}
+
 .side-menu li:hover {
     background: white;
+    color: #777;
 }
+
 
 .container {
     position: absolute;
@@ -142,6 +179,7 @@ th,td {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: -300px;
 }
 
 .container .header .nav .user img {
@@ -172,12 +210,12 @@ th,td {
     padding: 20px 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .container .content .cards .card {
-    width: 250px;
+    width: 1400px;
     height: 150px;
     background: white;
     margin: 20px 10px;
@@ -187,7 +225,11 @@ th,td {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
-.container .content .content-2 {
+.box {
+    text-align: center;
+}
+
+.container .content  {
     min-height: 60vh;
     display: flex;
     justify-content: space-around;
@@ -195,30 +237,55 @@ th,td {
     flex-wrap: wrap;
 }
 
-.container .content .content-2 .recent-payments {
+.content-2 {
     min-height: 50vh;
     flex: 5;
     background: white;
     margin: 0 25px 25px 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
     display: flex;
     flex-direction: column;
+
 }
 
-.container .content .content-2 .new-students {
-    flex: 2;
-    background: white;
-    min-height: 50vh;
-    margin: 0 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
+.content-2 .recent-payments {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
-.container .content .content-2 .new-students table td:nth-child(1) img{
-    height: 40px;
-    width: 40px;
+
+.info-box {
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
+
+.info {
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    margin-bottom: -400px;
+}
+
+.info1 {
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+}
+
+
+
+
+
+
 
 
 
