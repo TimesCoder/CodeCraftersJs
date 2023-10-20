@@ -1,0 +1,632 @@
+[
+  {
+    "kelas": "X1",
+    "nama": "Budi handuk",
+    "nisn": "987654321",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Siti",
+    "nisn": "987654322",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Dewi",
+    "nisn": "987654323",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Adi",
+    "nisn": "987654324",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Eka",
+    "nisn": "987654325",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Firman",
+    "nisn": "987654326",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Rina",
+    "nisn": "987654327",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Agus",
+    "nisn": "987654328",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Sari",
+    "nisn": "987654329",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Ade",
+    "nisn": "987654330",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Ani",
+    "nisn": "987654351",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Budi",
+    "nisn": "987654352",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Citra",
+    "nisn": "987654353",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Dito",
+    "nisn": "987654354",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Eka",
+    "nisn": "987654355",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Fajar",
+    "nisn": "987654356",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Gita",
+    "nisn": "987654357",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Hadi",
+    "nisn": "987654358",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Indra",
+    "nisn": "987654359",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Juli",
+    "nisn": "987654360",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Kiki",
+    "nisn": "987654361",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Luki",
+    "nisn": "987654362",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Mira",
+    "nisn": "987654363",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Nanda",
+    "nisn": "987654364",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Oky",
+    "nisn": "987654365",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Putri",
+    "nisn": "987654366",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Qori",
+    "nisn": "987654367",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Roni",
+    "nisn": "987654368",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Susi",
+    "nisn": "987654369",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Tito",
+    "nisn": "987654370",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Rini",
+    "nisn": "987654331",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Fauzan",
+    "nisn": "987654332",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Dita",
+    "nisn": "987654333",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Aldi",
+    "nisn": "987654334",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Nina",
+    "nisn": "987654335",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Joni",
+    "nisn": "987654336",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Eko",
+    "nisn": "987654337",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Rina",
+    "nisn": "987654338",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Sari",
+    "nisn": "987654339",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Doni",
+    "nisn": "987654340",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Umar",
+    "nisn": "987654371",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Vina",
+    "nisn": "987654372",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Wira",
+    "nisn": "987654373",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Xena",
+    "nisn": "987654374",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Yoga",
+    "nisn": "987654375",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Zara",
+    "nisn": "987654376",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Ari",
+    "nisn": "987654377",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Bina",
+    "nisn": "987654378",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Cahya",
+    "nisn": "987654379",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Dara",
+    "nisn": "987654380",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Eko",
+    "nisn": "987654381",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Fina",
+    "nisn": "987654382",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Gito",
+    "nisn": "987654383",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Hana",
+    "nisn": "987654384",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Indah",
+    "nisn": "987654385",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Joko",
+    "nisn": "987654386",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Kiki",
+    "nisn": "987654387",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Lana",
+    "nisn": "987654388",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Mila",
+    "nisn": "987654389",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Nino",
+    "nisn": "987654390",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Dewi",
+    "nisn": "987654341",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Rudi",
+    "nisn": "987654342",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Rina",
+    "nisn": "987654343",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Budi",
+    "nisn": "987654344",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Siti",
+    "nisn": "987654345",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Fauzan",
+    "nisn": "987654346",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Dita",
+    "nisn": "987654347",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Adi",
+    "nisn": "987654348",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Eka",
+    "nisn": "987654349",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Doni",
+    "nisn": "987654350",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Oki",
+    "nisn": "987654391",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Melati"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Prita",
+    "nisn": "987654392",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Qori",
+    "nisn": "987654393",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Roni",
+    "nisn": "987654394",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Susi",
+    "nisn": "987654395",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Tito",
+    "nisn": "987654396",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Umar",
+    "nisn": "987654397",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Vina",
+    "nisn": "987654398",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Wira",
+    "nisn": "987654399",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Xena",
+    "nisn": "987654400",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Yoga",
+    "nisn": "987654401",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Zara",
+    "nisn": "987654402",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Ari",
+    "nisn": "987654403",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Bina",
+    "nisn": "987654404",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Cahya",
+    "nisn": "987654405",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Dara",
+    "nisn": "987654406",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Eko",
+    "nisn": "987654407",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Fina",
+    "nisn": "987654408",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Gito",
+    "nisn": "987654409",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Hana",
+    "nisn": "987654410",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek"
+  }
+]
