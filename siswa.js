@@ -64,55 +64,57 @@ async function ambilData() {
 
     // Membuat fungsi search
     const searchInput = document.getElementById('cari');
-
     searchInput.addEventListener('keyup', (e) => {
       const keyword = e.target.value.toLowerCase();
-      const dataSiswaFiltered = dataSiswa.filter((item) => {
-        return (
-          item.nama.toLowerCase().includes(keyword) ||
-          item.nisn.toLowerCase().includes(keyword) ||
-          item.alamat.toLowerCase().includes(keyword)
-        );
-      });
-      const dataSiswaElements = {
-        X1: document.getElementById('dataSiswaX1'),
-        X2: document.getElementById('dataSiswaX2'),
-        X3: document.getElementById('dataSiswaX3'),
-        XI1: document.getElementById('dataSiswaXI1'),
-        XI2: document.getElementById('dataSiswaXI2'),
-        XI3: document.getElementById('dataSiswaXI3'),
-        XII1: document.getElementById('dataSiswaXII1'),
-        XII2: document.getElementById('dataSiswaXII2'),
-        XII3: document.getElementById('dataSiswaXII3'),
-      };
+      for (const kelas in tables) {
+        const dataSiswaKelas = dataSiswa.filter((item) => item.kelas === kelas);
+        const table = tables[kelas];
 
-      for (const kelas in dataSiswaElements) {
-        dataSiswaElements[kelas].innerHTML = '';
-        const dataSiswaKelas = dataSiswaFiltered.filter(
-          (item) => item.kelas === kelas
-        );
+        table.innerHTML = `
+          <tr>
+            <th>Kelas</th>
+            <th>Nama</th>
+            <th>NISN</th>
+            <th>Jenis Kelamin</th>
+            <th>Alamat</th>
+          </tr>
+        `;
 
         dataSiswaKelas.forEach((item) => {
-          dataSiswaElements[kelas].innerHTML += `
-            Data siswa ditemukan
-            <br>
-            <table border = "1">
-            <tr>
-              <th>Kelas</th>
-              <th>Nama</th>
-              <th>NISN</th>
-              <th>Jenis Kelamin</th>
-              <th>Alamat</th>
-            </tr>
-            <tr>
-              <td>${item.kelas}</td>
-              <td>${item.nama}</td>
-              <td>${item.nisn}</td>
-              <td>${item.jenisKelamin}</td>
-              <td>${item.alamat}</td>
+          if (
+            item.nama.toLowerCase().includes(keyword) ||
+            item.nisn.includes(keyword) ||
+            item.alamat.toLowerCase().includes(keyword)
+          ) {
+            table.innerHTML += `
+              <tr>
+                <td>${item.kelas}</td>
+                <td>${item.nama}</td>
+                <td>${item.nisn}</td>
+                <td>${item.jenisKelamin}</td>
+                <td>${item.alamat}</td>
               </tr>
-            </table>`;
+            `;
+          }
         });
+
+        // Jika pencarian selesai, kembalikan tampilan awal
+        if (keyword === '') {
+          const dataSiswaKelasAwal = dataSiswa.filter(
+            (item) => item.kelas === kelas
+          );
+          dataSiswaKelasAwal.forEach((item) => {
+            table.innerHTML += `
+              <tr>
+                <td>${item.kelas}</td>
+                <td>${item.nama}</td>
+                <td>${item.nisn}</td>
+                <td>${item.jenisKelamin}</td>
+                <td>${item.alamat}</td>
+              </tr>
+            `;
+          });
+        }
       }
     });
   } catch (error) {
