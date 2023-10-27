@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Login.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <form action="" class="form" onsubmit="return validateForm()">
+                <h1 class="h1">Log In</h1>
+                <hr class="hr">
+                <p class="p" id="message"></p>
+                <label for="loginEmail">Email</label>
+                <input type="text" id="loginEmail" class="input" placeholder="Enter your Email">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" class="input" placeholder="Password">
+                <!-- <button class="button" onclick="window.location.href='index.html'">Log In</button> -->
+                <button class="button" type="submit" formaction="index.html">Log In</button>
+                <p>Don't have an account? <a href="Regist.html">Sign Up</a></p>
+            </form>
+        </div>
+        <div class="right">
+            <img src="sma.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+</html>
+
+

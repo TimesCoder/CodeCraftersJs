@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Regist.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <form action="" class="form" onsubmit="return validateRegisterForm()">
+                <h1 class="h1">Registration</h1>
+                <hr class="hr">
+                <p class="p" id="registMessage"></p>
+                <label for="registUsername">Username</label>
+                <input type="text" id="registUsername" class="input" placeholder="Enter your Username">
+                <label for="registEmail">Email</label>
+                <input type="text" id="registEmail" class="input" placeholder="Enter your Email">
+                <label for="registPassword">Password</label>
+                <input type="password" id="registPassword" class="input" placeholder="Password">
+                <!-- <button class="button" onclick="window.location.href='Login.html'">Sign Up</button> -->
+                <button class="button" type="submit" formaction="Login.html">Sign Up</button>
+                <p>Already have an account? <a href="Login.html">Log In</a></p>
+            </form>
+        </div>
+        <div class="right">
+            <img src="sma.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="Regist.js"></script>
+</body>
+</html>
+
+
