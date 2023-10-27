@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="Login_and_regist.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <form action="" class="form" onsubmit="return validateForm()">
+          <h1 class="h1">Log In</h1>
+          <hr class="hr" />
+          <p class="p" id="message"></p>
+          <label for="loginEmail">Email</label>
+          <input
+            type="email"
+            id="loginEmail"
+            class="input"
+            placeholder="Enter your Email"
+          />
+          <label for="loginPassword">Password</label>
+          <input
+            type="password"
+            id="loginPassword"
+            class="input"
+            placeholder="Password"
+          />
+          <!-- <button class="button" onclick="window.location.href='index.html'">Log In</button> -->
+          <button class="button" type="submit" formaction="home">
+            Log In
+          </button>
+          <p>Don't have an account? <a href="register">Sign Up</a></p>
+        </form>
+      </div>
+      <div class="right">
+        <img src="./assets/sma.jpg" alt="" />
+      </div>
+    </div>
+
+    <script>
+      const email = 'admin@email.co.id';
+      const password = 'admin123';
+
+      function validateForm() {
+        const loginEmail = document.getElementById('loginEmail').value;
+        const loginPassword = document.getElementById('loginPassword').value;
+
+        if (loginEmail !== email || loginPassword !== password) {
+          document.getElementById('message').innerHTML =
+            'Email atau Password salah.';
+          return false;
+        } else if (loginEmail == email && loginPassword == password) {
+          document.getElementById('message').innerHTML = '';
+        }
+        return true;
+      }
+    </script>
+  </body>
+</html>

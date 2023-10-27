@@ -1,0 +1,812 @@
+[
+  {
+    "kelas": "X1",
+    "nama": "Budi",
+    "nisn": "987654321",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "budi@example.com",
+    "nomorHpOrangTua": "081234567800"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Siti",
+    "nisn": "987654322",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati",
+    "email": "siti@example.com",
+    "nomorHpOrangTua": "081234567801"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Dewi",
+    "nisn": "987654323",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "dewi@example.com",
+    "nomorHpOrangTua": "081234567802"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Adi",
+    "nisn": "987654324",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "adi@example.com",
+    "nomorHpOrangTua": "081234567803"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Eka",
+    "nisn": "987654325",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja",
+    "email": "eka@example.com",
+    "nomorHpOrangTua": "081234567804"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Firman",
+    "nisn": "987654326",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia",
+    "email": "firman@example.com",
+    "nomorHpOrangTua": "081234567805"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Rina",
+    "nisn": "987654327",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga",
+    "email": "rina@example.com",
+    "nomorHpOrangTua": "081234567806"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Agus",
+    "nisn": "987654328",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "agus@example.com",
+    "nomorHpOrangTua": "081234567807"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Sari",
+    "nisn": "987654329",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja",
+    "email": "sari@example.com",
+    "nomorHpOrangTua": "081234567808"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Ade",
+    "nisn": "987654330",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar",
+    "email": "ade@example.com",
+    "nomorHpOrangTua": "081234567809"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Ani",
+    "nisn": "987654351",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Melati",
+    "email": "ani@example.com",
+    "nomorHpOrangTua": "081234567810"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Budi",
+    "nisn": "987654352",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "budi2@example.com",
+    "nomorHpOrangTua": "081234567811"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Citra",
+    "nisn": "987654353",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia",
+    "email": "citra@example.com",
+    "nomorHpOrangTua": "081234567812"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Dito",
+    "nisn": "987654354",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar",
+    "email": "dito@example.com",
+    "nomorHpOrangTua": "081234567813"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Eka",
+    "nisn": "987654355",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek",
+    "email": "eka2@example.com",
+    "nomorHpOrangTua": "081234567814"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Fajar",
+    "nisn": "987654356",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja",
+    "email": "fajar@example.com",
+    "nomorHpOrangTua": "081234567815"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Gita",
+    "nisn": "987654357",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga",
+    "email": "gita@example.com",
+    "nomorHpOrangTua": "081234567816"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Hadi",
+    "nisn": "987654358",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka",
+    "email": "hadi@example.com",
+    "nomorHpOrangTua": "081234567817"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Indra",
+    "nisn": "987654359",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "indra@example.com",
+    "nomorHpOrangTua": "081234567818"
+  },
+  {
+    "kelas": "X2",
+    "nama": "Juli",
+    "nisn": "987654360",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia",
+    "email": "juli@example.com",
+    "nomorHpOrangTua": "081234567819"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Kiki",
+    "nisn": "987654361",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai",
+    "email": "kiki@example.com",
+    "nomorHpOrangTua": "081234567820"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Luki",
+    "nisn": "987654362",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar",
+    "email": "luki@example.com",
+    "nomorHpOrangTua": "081234567821"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Mira",
+    "nisn": "987654363",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek",
+    "email": "mira@example.com",
+    "nomorHpOrangTua": "081234567822"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Nanda",
+    "nisn": "987654364",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja",
+    "email": "nanda@example.com",
+    "nomorHpOrangTua": "081234567823"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Oky",
+    "nisn": "987654365",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga",
+    "email": "oky@example.com",
+    "nomorHpOrangTua": "081234567824"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Putri",
+    "nisn": "987654366",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka",
+    "email": "putri@example.com",
+    "nomorHpOrangTua": "081234567825"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Qori",
+    "nisn": "987654367",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai",
+    "email": "qori@example.com",
+    "nomorHpOrangTua": "081234567826"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Roni",
+    "nisn": "987654368",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia",
+    "email": "roni@example.com",
+    "nomorHpOrangTua": "081234567827"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Susi",
+    "nisn": "987654369",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "susi@example.com",
+    "nomorHpOrangTua": "081234567828"
+  },
+  {
+    "kelas": "X3",
+    "nama": "Tito",
+    "nisn": "987654370",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "tito@example.com",
+    "nomorHpOrangTua": "081234567829"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Rini",
+    "nisn": "987654331",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka",
+    "email": "rini@example.com",
+    "nomorHpOrangTua": "081234567830"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Fauzan",
+    "nisn": "987654332",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Melati",
+    "email": "fauzan@example.com",
+    "nomorHpOrangTua": "081234567831"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Dita",
+    "nisn": "987654333",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai",
+    "email": "dita@example.com",
+    "nomorHpOrangTua": "081234567832"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Aldi",
+    "nisn": "987654334",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia",
+    "email": "aldi@example.com",
+    "nomorHpOrangTua": "081234567833"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Nina",
+    "nisn": "987654335",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "nina@example.com",
+    "nomorHpOrangTua": "081234567834"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Rizal",
+    "nisn": "987654336",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "rizal@example.com",
+    "nomorHpOrangTua": "081234567835"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Mita",
+    "nisn": "987654337",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja",
+    "email": "mita@example.com",
+    "nomorHpOrangTua": "081234567836"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Edo",
+    "nisn": "987654338",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga",
+    "email": "edo@example.com",
+    "nomorHpOrangTua": "081234567837"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Sasa",
+    "nisn": "987654339",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka",
+    "email": "sasa@example.com",
+    "nomorHpOrangTua": "081234567838"
+  },
+  {
+    "kelas": "XI1",
+    "nama": "Rizky",
+    "nisn": "987654340",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "rizky@example.com",
+    "nomorHpOrangTua": "081234567839"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Risa",
+    "nisn": "987654371",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia",
+    "email": "risa@example.com",
+    "nomorHpOrangTua": "081234567840"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Fandi",
+    "nisn": "987654372",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar",
+    "email": "fandi@example.com",
+    "nomorHpOrangTua": "081234567841"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Nita",
+    "nisn": "987654373",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek",
+    "email": "nita@example.com",
+    "nomorHpOrangTua": "081234567842"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Doni",
+    "nisn": "987654374",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja",
+    "email": "doni@example.com",
+    "nomorHpOrangTua": "081234567843"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Lia",
+    "nisn": "987654375",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga",
+    "email": "lia@example.com",
+    "nomorHpOrangTua": "081234567844"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Firman",
+    "nisn": "987654376",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka",
+    "email": "firman2@example.com",
+    "nomorHpOrangTua": "081234567845"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Sari",
+    "nisn": "987654377",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai",
+    "email": "sari2@example.com",
+    "nomorHpOrangTua": "081234567846"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Rudi",
+    "nisn": "987654378",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia",
+    "email": "rudi@example.com",
+    "nomorHpOrangTua": "081234567847"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Nina",
+    "nisn": "987654379",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "nina2@example.com",
+    "nomorHpOrangTua": "081234567848"
+  },
+  {
+    "kelas": "XI2",
+    "nama": "Gandi",
+    "nisn": "987654380",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "gandi@example.com",
+    "nomorHpOrangTua": "081234567849"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Gita",
+    "nisn": "987654381",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai",
+    "email": "gita2@example.com",
+    "nomorHpOrangTua": "081234567860"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Firman",
+    "nisn": "987654382",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia",
+    "email": "firman3@example.com",
+    "nomorHpOrangTua": "081234567861"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Sari",
+    "nisn": "987654383",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "sari4@example.com",
+    "nomorHpOrangTua": "081234567862"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Rudi",
+    "nisn": "987654384",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "rudi2@example.com",
+    "nomorHpOrangTua": "081234567863"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Nina",
+    "nisn": "987654385",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja",
+    "email": "nina3@example.com",
+    "nomorHpOrangTua": "081234567864"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Gandi",
+    "nisn": "987654386",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga",
+    "email": "gandi2@example.com",
+    "nomorHpOrangTua": "081234567865"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Risa",
+    "nisn": "987654387",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka",
+    "email": "risa2@example.com",
+    "nomorHpOrangTua": "081234567866"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Doni",
+    "nisn": "987654388",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "doni2@example.com",
+    "nomorHpOrangTua": "081234567867"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Lia",
+    "nisn": "987654389",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia",
+    "email": "lia2@example.com",
+    "nomorHpOrangTua": "081234567868"
+  },
+  {
+    "kelas": "XI3",
+    "nama": "Fandi",
+    "nisn": "987654390",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar",
+    "email": "fandi2@example.com",
+    "nomorHpOrangTua": "081234567869"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Rina",
+    "nisn": "987654341",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja",
+    "email": "rina2@example.com",
+    "nomorHpOrangTua": "081234567850"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Feri",
+    "nisn": "987654342",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga",
+    "email": "feri@example.com",
+    "nomorHpOrangTua": "081234567851"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Dewi",
+    "nisn": "987654343",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka",
+    "email": "dewi2@example.com",
+    "nomorHpOrangTua": "081234567852"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Asep",
+    "nisn": "987654344",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "asep@example.com",
+    "nomorHpOrangTua": "081234567853"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Nani",
+    "nisn": "987654345",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Dahlia",
+    "email": "nani@example.com",
+    "nomorHpOrangTua": "081234567854"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Rizky",
+    "nisn": "987654346",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Mawar",
+    "email": "rizky2@example.com",
+    "nomorHpOrangTua": "081234567855"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Citra",
+    "nisn": "987654347",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek",
+    "email": "citra2@example.com",
+    "nomorHpOrangTua": "081234567856"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Dedi",
+    "nisn": "987654348",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja",
+    "email": "dedi@example.com",
+    "nomorHpOrangTua": "081234567857"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Sari",
+    "nisn": "987654349",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga",
+    "email": "sari3@example.com",
+    "nomorHpOrangTua": "081234567858"
+  },
+  {
+    "kelas": "XII1",
+    "nama": "Roni",
+    "nisn": "987654350",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka",
+    "email": "roni2@example.com",
+    "nomorHpOrangTua": "081234567859"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Nita",
+    "nisn": "987654391",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek",
+    "email": "nita4@example.com",
+    "nomorHpOrangTua": "081234567870"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Doni",
+    "nisn": "987654392",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja",
+    "email": "doni3@example.com",
+    "nomorHpOrangTua": "081234567871"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Lia",
+    "nisn": "987654393",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga",
+    "email": "lia3@example.com",
+    "nomorHpOrangTua": "081234567872"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Firman",
+    "nisn": "987654394",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Cempaka",
+    "email": "firman4@example.com",
+    "nomorHpOrangTua": "081234567873"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Sari",
+    "nisn": "987654395",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai",
+    "email": "sari5@example.com",
+    "nomorHpOrangTua": "081234567874"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Rudi",
+    "nisn": "987654396",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia",
+    "email": "rudi3@example.com",
+    "nomorHpOrangTua": "081234567875"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Nina",
+    "nisn": "987654397",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "nina5@example.com",
+    "nomorHpOrangTua": "081234567876"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Gandi",
+    "nisn": "987654398",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "gandi3@example.com",
+    "nomorHpOrangTua": "081234567877"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Risa",
+    "nisn": "987654399",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kamboja",
+    "email": "risa3@example.com",
+    "nomorHpOrangTua": "081234567878"
+  },
+  {
+    "kelas": "XII2",
+    "nama": "Fandi",
+    "nisn": "987654400",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kenanga",
+    "email": "fandi3@example.com",
+    "nomorHpOrangTua": "081234567879"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Dina",
+    "nisn": "987654401",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Teratai",
+    "email": "dina4@example.com",
+    "nomorHpOrangTua": "081234567880"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Rama",
+    "nisn": "987654402",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Dahlia",
+    "email": "rama4@example.com",
+    "nomorHpOrangTua": "081234567881"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Wati",
+    "nisn": "987654403",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Kenanga",
+    "email": "wati4@example.com",
+    "nomorHpOrangTua": "081234567882"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Fauzi",
+    "nisn": "987654404",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Melati",
+    "email": "fauzi4@example.com",
+    "nomorHpOrangTua": "081234567883"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Rina",
+    "nisn": "987654405",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Cempaka",
+    "email": "rina4@example.com",
+    "nomorHpOrangTua": "081234567884"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Gandi",
+    "nisn": "987654406",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "gandi4@example.com",
+    "nomorHpOrangTua": "081234567885"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Nina",
+    "nisn": "987654407",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Anggrek",
+    "email": "nina6@example.com",
+    "nomorHpOrangTua": "081234567886"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Rama",
+    "nisn": "987654408",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Kamboja",
+    "email": "rama5@example.com",
+    "nomorHpOrangTua": "081234567887"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Wati",
+    "nisn": "987654409",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "wati5@example.com",
+    "nomorHpOrangTua": "081234567888"
+  },
+  {
+    "kelas": "XII3",
+    "nama": "Fauzi",
+    "nisn": "987654410",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "fauzi5@example.com",
+    "nomorHpOrangTua": "081234567889"
+  }
+]

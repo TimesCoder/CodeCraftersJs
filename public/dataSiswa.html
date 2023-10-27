@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Data Siswa</title>
+    <style>
+      .dataSiswa {
+        width: 100%;
+        height: 200%;
+        background: white;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      .dataSiswa table {
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+        height: 20pc;
+      }
+      .dtSiswa {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="side-menu">
+      <div class="brand-name">
+        <img src="./assets/user.png" alt="Logo" />
+        <p>Selamat Datang</p>
+        <a href="login.html" class="login-link">Log Out</a>
+      </div>
+      <ul>
+        <li>
+          <img src="./assets/dashboard (2).png" alt="Dashboard" />&nbsp;<a
+            href="home"
+            >Dashboard</a
+          >
+        </li>
+        <li>
+          <img src="./assets/reading-book (1).png" alt="Data Siswa" />&nbsp;<a
+            href="siswa"
+            >Data Siswa</a
+          >
+        </li>
+        <li>
+          <img src="./assets/teacher2.png" alt="Data Guru" />&nbsp;<a
+            href="guru"
+            >Data Guru</a
+          >
+        </li>
+        <li>
+          <img src="./assets/school.png" alt="Data Kepala Sekolah" />&nbsp;Data
+          Kepala Sekolah
+        </li>
+        <li>
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;Rekap
+          Absensi
+        </li>
+        <li><img src="./assets/help-web-button.png" alt="Help" />&nbsp;Help</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <div class="search">
+            <h1>Adminstrator</h1>
+          </div>
+          <div class="user">
+            <div class="img-case">
+              <img src="./assets/user.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="judulHalaman">Data Siswa</h1>
+      <div class="content">
+        <div class="card">
+          <div class="box">
+            <h3>Pilih Kelas Untuk Melihat data Siswa</h3>
+            <hr />
+            <br />
+            <label for="kelas">Pilih Kelas</label>
+            <select name="kelas" id="kelas">
+              <option value="">Pilih Kelas</option>
+              <option value="X1">Kelas X 1</option>
+              <option value="X2">Kelas X 2</option>
+              <option value="X3">Kelas X 3</option>
+              <option value="XI1">Kelas XI 1</option>
+              <option value="XI2">Kelas XI 2</option>
+              <option value="XI3">Kelas XI 3</option>
+              <option value="XII1">Kelas XII 1</option>
+              <option value="XII2">Kelas XII 2</option>
+              <option value="XII3">Kelas XII 3</option>
+            </select>
+          </div>
+        </div>
+        <input
+          type="search"
+          placeholder="Cari Siswa..."
+          class="cari"
+          id="cari"
+        />
+        <div class="dataSiswa">
+          <!-- Untuk kelas X -->
+          <div id="dataSiswaX1" class="dtSiswa">
+            <h3>Data Siswa Kelas X 1</h3>
+            <table border="1" id="tableX1">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+          <div id="dataSiswaX2" class="dtSiswa">
+            <h3>Data Siswa Kelas X 2</h3>
+            <table border="1" id="tableX2">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+          <div id="dataSiswaX3" class="dtSiswa">
+            <h3>Data Siswa Kelas X 3</h3>
+            <table border="1" id="tableX3">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Untuk kelas XI -->
+          <div id="dataSiswaXI1" class="dtSiswa">
+            <h3>Data Siswa Kelas XI 1</h3>
+            <table border="1" id="tableXI1">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+          <div id="dataSiswaXI2" class="dtSiswa">
+            <h3>Data Siswa Kelas XI 2</h3>
+            <table border="1" id="tableXI2">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+          <div id="dataSiswaXI3" class="dtSiswa">
+            <h3>Data Siswa Kelas XI 3</h3>
+            <table border="1" id="tableXI3">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Untuk kelas XII -->
+          <div id="dataSiswaXII1" class="dtSiswa">
+            <h3>Data Siswa Kelas XII 1</h3>
+            <table border="1" id="tableXII1">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+          <div id="dataSiswaXII2" class="dtSiswa">
+            <h3>Data Siswa Kelas XII 2</h3>
+            <table border="1" id="tableXII2">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+          <div id="dataSiswaXII3" class="dtSiswa">
+            <h3>Data Siswa Kelas XII 3</h3>
+            <table border="1" id="tableXII3">
+              <tr>
+                <th>kelas</th>
+                <th>Nama</th>
+                <th>NISN</th>
+                <th>Jenis Kelamin</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Nomor Hp Orangtua</th>
+                <th>Perbaharui Data</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./siswa.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="Login_and_regist.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <form action="" class="form" onsubmit="return validateRegisterForm()">
+          <h1 class="h1">Registration</h1>
+          <hr class="hr" />
+          <p class="p" id="registMessage"></p>
+          <label for="registUsername">Username</label>
+          <input
+            type="text"
+            id="registUsername"
+            class="input"
+            placeholder="Enter your Username"
+          />
+          <label for="registEmail">Email</label>
+          <input
+            type="email"
+            id="registEmail"
+            class="input"
+            placeholder="Enter your Email"
+          />
+          <label for="registPassword">Password</label>
+          <input
+            type="password"
+            id="registPassword"
+            class="input"
+            placeholder="Password"
+          />
+          <!-- <button class="button" onclick="window.location.href='Login.html'">Sign Up</button> -->
+          <button class="button" type="submit" formaction="login">
+            Sign Up
+          </button>
+          <p>Already have an account? <a href="login">Log In</a></p>
+        </form>
+      </div>
+      <div class="right">
+        <img src="./assets/sma.jpg" alt="" />
+      </div>
+    </div>
+
+    <script>
+      function validateRegisterForm() {
+        const registUsername = document.getElementById('registUsername').value;
+        const registEmail = document.getElementById('registEmail').value;
+        const registPassword = document.getElementById('registPassword').value;
+
+        if (registUsername == '' || registEmail == '' || registPassword == '') {
+          document.getElementById('registMessage').innerHTML =
+            'Semua field harus diisi.';
+          return false;
+        } else if (
+          registUsername !== '' &&
+          registEmail !== '' &&
+          registPassword !== ''
+        ) {
+          document.getElementById('registMessage').innerHTML = '';
+        }
+        return true;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "codecraftersjs_project",
+  "version": "1.0.0",
+  "description": "Aplikasi absensi Berbasis web",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimesCoder/CodeCraftersJs.git"
+  },
+  "keywords": [
+    "Aplikasi",
+    "Absensi"
+  ],
+  "author": "Team CodeCrafterJs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimesCoder/CodeCraftersJs/issues"
+  },
+  "homepage": "https://github.com/TimesCoder/CodeCraftersJs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
