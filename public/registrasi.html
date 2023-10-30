@@ -51,19 +51,15 @@
         const registUsername = document.getElementById('registUsername').value;
         const registEmail = document.getElementById('registEmail').value;
         const registPassword = document.getElementById('registPassword').value;
-
-        if (registUsername == '' || registEmail == '' || registPassword == '') {
-          document.getElementById('registMessage').innerHTML =
-            'Semua field harus diisi.';
-          return false;
-        } else if (
+        if (
           registUsername !== '' &&
           registEmail !== '' &&
           registPassword !== ''
         ) {
           document.getElementById('registMessage').innerHTML = '';
+          const queryParams = `?username=${registUsername}&email=${registEmail}&password=${registPassword}`;
+          window.location.href = `login.html${queryParams}`;
         }
-        return true;
       }
     </script>
   </body>

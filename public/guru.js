@@ -31,7 +31,6 @@ async function ambilData() {
 
       table.innerHTML = `
           <tr>
-            <th>Kelas</th>
             <th>Nama</th>
             <th>NIP</th>
             <th>No HP</th>
@@ -44,7 +43,6 @@ async function ambilData() {
       dataGuruKelas.forEach((item) => {
         table.innerHTML += `
             <tr>
-              <td>${item.kelas}</td>
               <td>${item.nama}</td>
               <td>${item.nip}</td>
               <td>${item.noHp}</td>
@@ -94,10 +92,8 @@ async function ambilData() {
         ) {
           const dataGuruKelas = dataGuru.filter((item) => item.kelas === kelas);
           const table = tables[kelas];
-
           table.innerHTML = `
             <tr>
-              <th>Kelas</th>
               <th>Nama</th>
               <th>Nip</th>
               <th>No Hp</th>
@@ -114,7 +110,6 @@ async function ambilData() {
             ) {
               table.innerHTML += `
               <tr>
-                <td>${item.kelas}</td>
                 <td>${item.nama}</td>
                 <td>${item.nip}</td>
                 <td>${item.noHp}</td>
@@ -134,7 +129,6 @@ async function ambilData() {
           dataGuruKelasAwal.forEach((item) => {
             table.innerHTML += `
             <tr>
-              <td>${item.kelas}</td>
               <td>${item.nama}</td>
               <td>${item.nip}</td>
               <td>${item.noHp}</td>

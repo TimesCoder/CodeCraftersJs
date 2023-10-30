@@ -1,15 +1,6 @@
 [
   {
     "kelas": "X1",
-    "nama": "Budi",
-    "nisn": "987654321",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "Jalan Anggrek",
-    "email": "budi@example.com",
-    "nomorHpOrangTua": "081234567800"
-  },
-  {
-    "kelas": "X1",
     "nama": "Siti",
     "nisn": "987654322",
     "jenisKelamin": "Perempuan",
@@ -808,5 +799,16 @@
     "alamat": "Jalan Teratai",
     "email": "fauzi5@example.com",
     "nomorHpOrangTua": "081234567889"
-  }
+  },
+  {
+    "kelas": "X1",
+    "nama": "Budi",
+    "nisn": "987654321",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Anggrek",
+    "email": "budi@example.com",
+    "nomorHpOrangTua": "081234567800"
+  },
+  {},
+  {}
 ]

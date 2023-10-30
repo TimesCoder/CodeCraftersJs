@@ -32,14 +32,12 @@ async function ambilData() {
       dataSiswaKelas.forEach((item) => {
         table.innerHTML += `
           <tr>
-            <td>${item.kelas}</td>
             <td>${item.nama}</td>
             <td>${item.nisn}</td>
             <td>${item.jenisKelamin}</td>
             <td>${item.alamat}</td>
             <td>${item.email}</td>
             <td>${item.nomorHpOrangTua}</td>
-            <td><button>Update</button>&emsp;<button>Delete</button>&emsp;<button>View</button></td>
           </tr>
         `;
       });
@@ -88,14 +86,12 @@ async function ambilData() {
 
           table.innerHTML = `
           <tr>
-            <th>Kelas</th>
             <th>Nama</th>
             <th>NISN</th>
             <th>Jenis Kelamin</th>
             <th>Alamat</th>
             <th>Email</th>
             <th>Nomor HP Orang Tua</th>
-            <th>Perbaharui Data</th>
           </tr>
         `;
 
@@ -107,14 +103,12 @@ async function ambilData() {
             ) {
               table.innerHTML += `
               <tr>
-                <td>${item.kelas}</td>
                 <td>${item.nama}</td>
                 <td>${item.nisn}</td>
                 <td>${item.jenisKelamin}</td>
                 <td>${item.alamat}</td>
                 <td>${item.email}</td>
                 <td>${item.nomorHpOrangTua}</td>
-                <td><button>Update</button>&emsp;<button>Delete</button>&emsp;<button>View</button></td>
               </tr>
             `;
             }
@@ -129,7 +123,6 @@ async function ambilData() {
           dataSiswaKelasAwal.forEach((item) => {
             table.innerHTML += `
               <tr>
-                <td>${item.kelas}</td>
                 <td>${item.nama}</td>
                 <td>${item.nisn}</td>
                 <td>${item.jenisKelamin}</td>
