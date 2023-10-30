@@ -1,0 +1,509 @@
+[
+  {
+    "nisn": "1234567890",
+    "nama": "John Doe",
+    "kelas": "X1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "0987654321",
+    "nama": "Jane Smith",
+    "kelas": "X1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1111111111",
+    "nama": "Siti Nurul",
+    "kelas": "X1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2222222222",
+    "nama": "Ahmad Budi",
+    "kelas": "X1",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3333333333",
+    "nama": "Lina Sari",
+    "kelas": "X1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "4444444444",
+    "nama": "Rudi Santoso",
+    "kelas": "X1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "5555555555",
+    "nama": "Alice Johnson",
+    "kelas": "X2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "6666666666",
+    "nama": "Bob Brown",
+    "kelas": "X2",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "7777777777",
+    "nama": "Eva White",
+    "kelas": "X2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "8888888888",
+    "nama": "David Clark",
+    "kelas": "X2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X2",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "9999999999",
+    "nama": "Cindy Lee",
+    "kelas": "X3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+
+  {
+    "nisn": "1010101010",
+    "nama": "Rina Wang",
+    "kelas": "XI1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1212121212",
+    "nama": "Tono Sudirman",
+    "kelas": "XI1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1313131313",
+    "nama": "Linda Hartono",
+    "kelas": "XI1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1414141414",
+    "nama": "Wulan Sari",
+    "kelas": "XI1",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1515151515",
+    "nama": "Hadi Cahyono",
+    "kelas": "XI1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1616161616",
+    "nama": "Susi Lim",
+    "kelas": "XI1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1717171717",
+    "nama": "Adi Prasetyo",
+    "kelas": "XI2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1818181818",
+    "nama": "Dewi Rahayu",
+    "kelas": "XI2",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "1919191919",
+    "nama": "Anto Sutrisno",
+    "kelas": "XI2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2020202020",
+    "nama": "Sinta Putri",
+    "kelas": "XI2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI2",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2121212121",
+    "nama": "Budi Susilo",
+    "kelas": "XI3",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+
+  {
+    "nisn": "2222222222",
+    "nama": "Rina Permata",
+    "kelas": "XII1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2323232323",
+    "nama": "Surya Darmawan",
+    "kelas": "XII1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2424242424",
+    "nama": "Dewi Ayu",
+    "kelas": "XII1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2525252525",
+    "nama": "Robby Pranoto",
+    "kelas": "XII1",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2626262626",
+    "nama": "Lina Kartika",
+    "kelas": "XII1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2727272727",
+    "nama": "Fauzi Nur",
+    "kelas": "XII1",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2828282828",
+    "nama": "Ayu Sintya",
+    "kelas": "XII2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "2929292929",
+    "nama": "Dwi Prasetyo",
+    "kelas": "XII2",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3131313131",
+    "nama": "Budi Rahardjo",
+    "kelas": "XII2",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  },
+  {
+    "nisn": "3030303030",
+    "nama": "Sari Lestari",
+    "kelas": "XII3",
+    "absen": "Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  }
+
+]

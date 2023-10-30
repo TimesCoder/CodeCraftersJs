@@ -1,0 +1,872 @@
+[
+    {
+      "kelas": "X1",
+      "hari": "Senin",
+      "tanggal": "2023-10-30",
+      "nip": "12345",
+      "nama": "John Doe",
+      "absen": "Hadir"
+    },
+    {
+        "kelas": "X1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+    {
+      "kelas": "X2",
+      "hari": "Senin",
+      "tanggal": "2023-10-30",
+      "nip": "54321",
+      "nama": "Jane Smith",
+      "absen": "Hadir"
+    },
+    {
+        "kelas": "X2",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X2",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X2",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X2",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X2",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X3",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X3",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X3",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X3",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X3",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "X3",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+
+
+    {
+      "kelas": "XI1",
+      "hari": "Senin",
+      "tanggal": "2023-10-30",
+      "nip": "98765",
+      "nama": "David Brown",
+      "absen": "Alpha"
+    },
+    {
+        "kelas": "XI1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XI1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XI1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XI1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XI1",
+        "hari": "Senin",
+        "tanggal": "2023-10-30",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+
+    {
+      "kelas": "XI2",
+      "hari": "Selasa",
+      "tanggal": "2023-10-31",
+      "nip": "12345",
+      "nama": "John Doe",
+      "absen": "Hadir"
+    },
+    {
+        "kelas": "XI2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "12345",
+        "nama": "John Doe",
+        "absen": "Hadir"
+      },
+
+    {
+      "kelas": "XI3",
+      "hari": "Selasa",
+      "tanggal": "2023-10-31",
+      "nip": "54321",
+      "nama": "Jane Smith",
+      "absen": "Hadir"
+    },
+    {
+        "kelas": "XI3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+      {
+        "kelas": "XI3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "54321",
+        "nama": "Jane Smith",
+        "absen": "Hadir"
+      },
+
+    {
+      "kelas": "XII1",
+      "hari": "Selasa",
+      "tanggal": "2023-10-31",
+      "nip": "98765",
+      "nama": "David Brown",
+      "absen": "Alpha"
+    },
+    {
+        "kelas": "XII1",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII1",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII1",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII1",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII1",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII2",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+      {
+        "kelas": "XII3",
+        "hari": "Selasa",
+        "tanggal": "2023-10-31",
+        "nip": "98765",
+        "nama": "David Brown",
+        "absen": "Alpha"
+      },
+
+      {
+        "dataMahasiswa": [
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "1234567890",
+            "nama": "Alice Johnson",
+            "kelas": "X1",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "1234567890",
+            "nama": "Alice Johnson",
+            "kelas": "X1",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "1234567890",
+            "nama": "Alice Johnson",
+            "kelas": "X1",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "1234567890",
+            "nama": "Alice Johnson",
+            "kelas": "X1",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "1234567890",
+            "nama": "Alice Johnson",
+            "kelas": "X1",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "1234567890",
+            "nama": "Alice Johnson",
+            "kelas": "X1",
+            "absen": "Hadir"
+          },
+
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "2345678901",
+            "nama": "Bob Smith",
+            "kelas": "X2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "2345678901",
+            "nama": "Bob Smith",
+            "kelas": "X2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "2345678901",
+            "nama": "Bob Smith",
+            "kelas": "X2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "2345678901",
+            "nama": "Bob Smith",
+            "kelas": "X2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "2345678901",
+            "nama": "Bob Smith",
+            "kelas": "X2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Senin",
+            "tanggal": "2023-10-30",
+            "nisn": "2345678901",
+            "nama": "Bob Smith",
+            "kelas": "X2",
+            "absen": "Hadir"
+          },
+
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "3456789012",
+            "nama": "Charlie Brown",
+            "kelas": "X3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "3456789012",
+            "nama": "Charlie Brown",
+            "kelas": "X3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "3456789012",
+            "nama": "Charlie Brown",
+            "kelas": "X3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "3456789012",
+            "nama": "Charlie Brown",
+            "kelas": "X3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "3456789012",
+            "nama": "Charlie Brown",
+            "kelas": "X3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "3456789012",
+            "nama": "Charlie Brown",
+            "kelas": "X3",
+            "absen": "Hadir"
+          },
+
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "4567890123",
+            "nama": "David Wilson",
+            "kelas": "XI1",
+            "absen": "Tidak Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "4567890123",
+            "nama": "David Wilson",
+            "kelas": "XI1",
+            "absen": "Tidak Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "4567890123",
+            "nama": "David Wilson",
+            "kelas": "XI1",
+            "absen": "Tidak Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "4567890123",
+            "nama": "David Wilson",
+            "kelas": "XI1",
+            "absen": "Tidak Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "4567890123",
+            "nama": "David Wilson",
+            "kelas": "XI1",
+            "absen": "Tidak Hadir"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "4567890123",
+            "nama": "David Wilson",
+            "kelas": "XI1",
+            "absen": "Tidak Hadir"
+          },
+
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "5678901234",
+            "nama": "Eve Taylor",
+            "kelas": "XI2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "5678901234",
+            "nama": "Eve Taylor",
+            "kelas": "XI2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "5678901234",
+            "nama": "Eve Taylor",
+            "kelas": "XI2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "5678901234",
+            "nama": "Eve Taylor",
+            "kelas": "XI2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "5678901234",
+            "nama": "Eve Taylor",
+            "kelas": "XI2",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "5678901234",
+            "nama": "Eve Taylor",
+            "kelas": "XI2",
+            "absen": "Hadir"
+          },
+
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "6789012345",
+            "nama": "Frank White",
+            "kelas": "XI3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "6789012345",
+            "nama": "Frank White",
+            "kelas": "XI3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "6789012345",
+            "nama": "Frank White",
+            "kelas": "XI3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "6789012345",
+            "nama": "Frank White",
+            "kelas": "XI3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "6789012345",
+            "nama": "Frank White",
+            "kelas": "XI3",
+            "absen": "Hadir"
+          },
+          {
+            "hari": "Rabu",
+            "tanggal": "2023-11-01",
+            "nisn": "6789012345",
+            "nama": "Frank White",
+            "kelas": "XI3",
+            "absen": "Hadir"
+          },
+
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII1",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII1",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII1",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII1",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII1",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII1",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII2",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII2",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII2",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII2",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII2",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII2",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII3",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII3",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII3",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII3",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII3",
+            "absen": "Alpha"
+          },
+          {
+            "hari": "Selasa",
+            "tanggal": "2023-10-31",
+            "nisn": "98765",
+            "nama": "David Brown",
+            "kelas": "XII3",
+            "absen": "Alpha"
+          }
+
+
+
+        ]
+      }
+      
+
+  ]
+  
