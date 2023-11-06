@@ -29,6 +29,17 @@ async function ambilData() {
       const dataSiswaKelas = dataSiswa.filter((item) => item.kelas === kelas);
       const table = tables[kelas];
 
+      table.innerHTML = `
+            <tr>
+              <th>Nama</th>
+              <th>NISN</th>
+              <th>Jenis Kelamin</th>
+              <th>Alamat</th>
+              <th>Email</th>
+              <th>Nomor Hp Orangtua</th>
+            </tr>
+          `;
+
       dataSiswaKelas.forEach((item) => {
         table.innerHTML += `
           <tr>

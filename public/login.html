@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration</title>
+    <title>Login</title>
     <link rel="stylesheet" href="Login_and_regist.css" />
   </head>
   <body>
@@ -38,29 +38,41 @@
     </div>
 
     <script>
-      const email = 'admin@email.co.id';
-      const password = 'admin123';
-
+      // Mengvalidasi form login
       function validateForm() {
         const loginEmail = document.getElementById('loginEmail').value;
         const loginPassword = document.getElementById('loginPassword').value;
-        document.addEventListener('DOMContentLoaded', function () {
-          const params = new URLSearchParams(window.location.search);
-          const username = params.get('username');
-          const email = params.get('email');
-          const password = params.get('password');
 
-          if (username && email && password) {
-            document.getElementById('loginEmail').value = email;
-            document.getElementById('loginPassword').value = password;
-          }
-          
-          if (loginEmail !== email || loginPassword !== password) {
+        // mengecek apakah email dan password yang sudah di daftarkan di from register
+        const params = new URLSearchParams(window.location.search);
+        const emailParam = params.get('email');
+        const passwordParam = params.get('password');
+
+        // Cek apakah ada data pendaftaran yang disimpan di localStorage
+        if (emailParam && passwordParam) {
+          if (loginEmail !== emailParam || loginPassword !== passwordParam) {
             document.getElementById('message').innerHTML =
               'Email atau Password salah.';
             return false;
           }
-        });
+        } else {
+          const registEmail = localStorage.getItem('registEmail');
+          const registPassword = localStorage.getItem('registPassword');
+          if (registEmail && registPassword) {
+            if (
+              loginEmail !== registEmail ||
+              loginPassword !== registPassword
+            ) {
+              document.getElementById('message').innerHTML =
+                'Email atau Password salah.';
+              return false;
+            }
+          } else {
+            document.getElementById('message').innerHTML =
+              'Email atau Password salah.';
+            return false;
+          }
+        }
 
         return true;
       }

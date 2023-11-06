@@ -47,16 +47,25 @@
     </div>
 
     <script>
+      // Mengvalidasi form pendaftaran
       function validateRegisterForm() {
         const registUsername = document.getElementById('registUsername').value;
         const registEmail = document.getElementById('registEmail').value;
         const registPassword = document.getElementById('registPassword').value;
+
         if (
           registUsername !== '' &&
           registEmail !== '' &&
           registPassword !== ''
         ) {
           document.getElementById('registMessage').innerHTML = '';
+
+          // Simpan data pendaftaran di localStorage
+          localStorage.setItem('registUsername', registUsername);
+          localStorage.setItem('registEmail', registEmail);
+          localStorage.setItem('registPassword', registPassword);
+
+          // Mengirim data pendaftaran ke halaman login
           const queryParams = `?username=${registUsername}&email=${registEmail}&password=${registPassword}`;
           window.location.href = `login.html${queryParams}`;
         }
