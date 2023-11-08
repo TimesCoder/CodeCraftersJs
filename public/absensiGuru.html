@@ -7,57 +7,77 @@
       href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="absensi.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Rekap Absensi Guru</title>
   </head>
   <body>
     <div class="side-menu">
       <div class="brand-name">
-        <img src="/picture/user.png" alt="Logo" />
-        <p style="color: rgb(101, 77, 55)">Selamat Datang</p>
-        <a href="login.html" class="login-link" style="color: rgb(101, 77, 55)">Login</a>
+        <img src="./assets/user.png" alt="Logo" />
+        <p>Selamat Datang</p>
+        <a href="login.html" class="login-link">Log Out</a>
       </div>
       <ul>
         <li>
-          <img src="/picture/dashboard (2).png" alt="Dashboard" />&nbsp;<a href="index.html">Dashboard</a>
+          <img src="./assets/dashboard (2).png" alt="Dashboard" />&nbsp;<a
+            href="home"
+            >Dashboard</a
+          >
         </li>
         <li>
-          <img src="/picture/reading-book (1).png" alt="Data Siswa" />&nbsp;<a href="dataSiswa.html">Data Siswa</a>
+          <img src="./assets/reading-book (1).png" alt="Data Siswa" />&nbsp;<a
+            href="siswa"
+            >Data Siswa</a
+          >
         </li>
         <li>
-          <img src="/picture/teacher2.png" alt="Data Guru" />&nbsp;<a href="dataGuru.html">Data Guru</a>
+          <img src="./assets/teacher2.png" alt="Data Guru" />&nbsp;<a
+            href="guru"
+            >Data Guru</a
+          >
         </li>
         <li>
-          <img src="/picture/school.png" alt="Data Kepala Sekolah" />&nbsp;Data Kepala Sekolah
+          <img src="./assets/school.png" alt="Data Kepala Sekolah" />&nbsp;Data
+          Kepala Sekolah
         </li>
         <li>
-          <img src="/picture/payment.png" alt="Rekap Absensi" />&nbsp;Rekap Absensi
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiSiswa"
+            >Rekap Absensi Siswa</a
+          >
         </li>
         <li>
-          <img src="/picture/help-web-button.png" alt="Help" />&nbsp;Help
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiGuru"
+            >Rekap Absensi Guru</a
+          >
+        </li>
+        <li>
+          <img src="./assets/help-web-button.png" alt="Help" />&nbsp;<a
+            href="about"
+            >About</a
+          >
         </li>
       </ul>
     </div>
-
     <div class="container">
       <div class="header">
         <div class="nav">
           <div class="search">
-            <h1 style="color: rgb(6, 152, 178);">Adminstrator</h1>
+            <h1>Adminstrator</h1>
           </div>
           <div class="user">
             <div class="img-case">
-              <img src="/picture/user.png" alt="" />
+              <img src="./assets/user.png" alt="" />
             </div>
           </div>
         </div>
       </div>
-      <h1 style="margin: 10px 20px">Data Guru</h1>
+      <h1 class="judulHalaman">Rekap Absensi Guru</h1>
       <div class="content">
         <div class="card">
           <div class="box">
             <h3>Pilih Kelas Untuk Melihat data Guru yang mengajar</h3>
-            <a href="absensiSiswa.html">Absensi Guru</a>
             <hr />
             <br />
             <label for="kelas">Pilih Kelas</label>
@@ -75,7 +95,12 @@
             </select>
           </div>
         </div>
-        <input type="search" placeholder="Cari Guru..." class="cari" id="cari" />
+        <input
+          type="search"
+          placeholder="Cari Guru..."
+          class="cari"
+          id="cari"
+        />
         <div class="dataGuru">
           <div id="dataGuruX1" class="dtGuru">
             <h3>Data Guru Kelas X</h3>

@@ -3,6 +3,7 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import bodyParser from 'body-parser';
 import fs from 'fs';
+import middlewareLogsRequest from './middleware/logs.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -15,35 +16,42 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // Middleware to log request method and path
-app.use((req, res, next) => {
-  console.log('Log request', req.path, req.method);
-  next();
-});
+app.use(middlewareLogsRequest);
 
 // Load data files json
 const dataSiswaPath = __dirname + '/public/dataSiswa.json';
 const dataGuruPath = __dirname + '/public/dataGuru.json';
 
+// Method for root path '/' Error 404
 app.get('/', (req, res) => {
   res.statusCode = 404;
   res.send('404 Not Found');
 });
 
+// Method for static files
 app.use(express.static(__dirname + '/public'));
 
+// GET method for login.html
 app.get('/login', (req, res) => {
   res.statusCode = 200;
   res.sendFile(__dirname + '/public/login.html');
 });
 
+// GET method for registrasi.html
 app.get('/register', (req, res) => {
   res.statusCode = 200;
   res.sendFile(__dirname + '/public/registrasi.html');
 });
 
+// GET method for home.html
 app.get('/home', (req, res) => {
   res.statusCode = 200;
   res.sendFile(__dirname + '/public/index.html');
+});
+
+// GET method for absensiSiswa.html
+app.get('/absensi', (req, res) => {
+  res.sendFile(__dirname + '/public/absensiGuru.html');
 });
 
 // GET method for dataGuru.html
@@ -89,7 +97,7 @@ app.post('/siswajson', (req, res) => {
   res.status(201).json({ message: 'Data added successfully' });
 });
 
-// PUT method for dataSiswa.json
+// PUT method for dataSiswa.json berdasarkan nisn
 app.put('/siswajson/:nisn', (req, res) => {
   const nisn = req.params.nisn;
   const updatedData = req.body;
@@ -105,7 +113,7 @@ app.put('/siswajson/:nisn', (req, res) => {
   }
 });
 
-// DELETE method for dataSiswa.json
+// DELETE method for dataSiswa.json berdasarkan nisn
 app.delete('/siswajson/:nisn', (req, res) => {
   const nisn = req.params.nisn;
   const data = getDataFromFile(dataSiswaPath);
@@ -124,6 +132,12 @@ app.get('/gurujson', (req, res) => {
   res.json(data);
 });
 
+// GET method for dataGuru.json berdasarkan nip
+app.get('/gurujson/:nip', (req, res) => {
+  const data = getDataFromFile(dataGuruPath);
+  res.json(data.find((item) => item.nip === req.params.nip));
+});
+
 // POST method for dataGuru.json
 app.post('/gurujson', (req, res) => {
   const newData = req.body;
@@ -133,7 +147,7 @@ app.post('/gurujson', (req, res) => {
   res.status(201).json({ message: 'Data added successfully' });
 });
 
-// PUT method for dataGuru.json
+// PUT method for dataGuru.json berdasarkan nip
 app.put('/gurujson/:nip', (req, res) => {
   const nip = req.params.nip;
   const updatedData = req.body;
@@ -149,7 +163,7 @@ app.put('/gurujson/:nip', (req, res) => {
   }
 });
 
-// DELETE method for dataGuru.json
+// DELETE method for dataGuru.json berdasarkan nip
 app.delete('/gurujson/:nip', (req, res) => {
   const nip = req.params.nip;
   const data = getDataFromFile(dataGuruPath);
@@ -162,6 +176,22 @@ app.delete('/gurujson/:nip', (req, res) => {
   }
 });
 
+// GET method for absensiSiswa.html
+app.get('/absensiSiswa', (req, res) => {
+  res.sendFile(__dirname + '/public/absensiSiswa.html');
+});
+
+// GET method for absensiGuru.html
+app.get('/absensiGuru', (req, res) => {
+  res.sendFile(__dirname + '/public/absensiGuru.html');
+});
+
+// GET method for about.html
+app.get('/about', (req, res) => {
+  res.sendFile(__dirname + '/public/about.html');
+});
+
+// Start server
 app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/login`);
+  console.log(`Server running at http://${hostname}:${port}/register`);
 });

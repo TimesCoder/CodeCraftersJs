@@ -44,10 +44,23 @@
           Kepala Sekolah
         </li>
         <li>
-          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;Rekap
-          Absensi
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiSiswa"
+            >Rekap Absensi Siswa</a
+          >
         </li>
-        <li><img src="./assets/help-web-button.png" alt="Help" />&nbsp;Help</li>
+        <li>
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiGuru"
+            >Rekap Absensi Guru</a
+          >
+        </li>
+        <li>
+          <img src="./assets/help-web-button.png" alt="Help" />&nbsp;<a
+            href="about"
+            >About</a
+          >
+        </li>
       </ul>
     </div>
 
@@ -78,19 +91,13 @@
             <div class="info1">
               <div class="info-inner">
                 <h2>Jumlah Siswa</h2>
-                <p>34</p>
+                <p id="totalSiswa"></p>
               </div>
             </div>
             <div class="info">
               <div class="info-inner">
                 <h2>Jumlah Siswa</h2>
-                <p>700</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="info-inner">
-                <h2>Jumlah Siswa</h2>
-                <p>11</p>
+                <p id="totalGuru"></p>
               </div>
             </div>
           </div>
@@ -100,5 +107,36 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
     </style>
+
+    <script>
+      // Membuat Fungsi untuk mentotal data siswa dan guru yang ada di file json
+      async function getData() {
+        try {
+          const responseSiswa = await fetch('dataSiswa.json');
+          const responseGuru = await fetch('dataGuru.json');
+          const dataSiswa = await responseSiswa.json();
+          const dataGuru = await responseGuru.json();
+          return { dataSiswa, dataGuru };
+        } catch (err) {
+          console.log(err);
+        }
+      }
+
+      async function ambilData() {
+        try {
+          const { dataSiswa, dataGuru } = await getData();
+          const totalSiswa = dataSiswa.length;
+          const totalGuru = dataGuru.length;
+          const totalSiswaElement = document.getElementById('totalSiswa');
+          const totalGuruElement = document.getElementById('totalGuru');
+
+          totalSiswaElement.innerHTML = totalSiswa;
+          totalGuruElement.innerHTML = totalGuru;
+        } catch (err) {
+          console.log(err);
+        }
+      }
+      ambilData();
+    </script>
   </body>
 </html>

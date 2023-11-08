@@ -9,27 +9,6 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <title>Data Siswa</title>
-    <style>
-      .dataSiswa {
-        width: 100%;
-        height: 200%;
-        background: white;
-        margin: 10px 10px;
-        padding: 10px 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        text-align: center;
-      }
-
-      .dataSiswa table {
-        border-collapse: collapse;
-        text-align: center;
-        width: 100%;
-        height: 20pc;
-      }
-      .dtSiswa {
-        display: none;
-      }
-    </style>
   </head>
   <body>
     <div class="side-menu">
@@ -62,10 +41,23 @@
           Kepala Sekolah
         </li>
         <li>
-          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;Rekap
-          Absensi
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiSiswa"
+            >Rekap Absensi Siswa</a
+          >
         </li>
-        <li><img src="./assets/help-web-button.png" alt="Help" />&nbsp;Help</li>
+        <li>
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiGuru"
+            >Rekap Absensi Guru</a
+          >
+        </li>
+        <li>
+          <img src="./assets/help-web-button.png" alt="Help" />&nbsp;<a
+            href="about"
+            >About</a
+          >
+        </li>
       </ul>
     </div>
 
@@ -104,7 +96,7 @@
             </select>
             <br>
             <br>
-            <button><a href="siswajson">Lihat Semua Data Siswa Berbentuk Json</a></button>
+            <a href="siswajson">Lihat Semua Data Siswa Berbentuk Json</a>
           </div>
         </div>
         <input
@@ -118,40 +110,16 @@
           <div id="dataSiswaX1" class="dtSiswa">
             <h3>Data Siswa Kelas X 1</h3>
             <table border="1" id="tableX1">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
           <div id="dataSiswaX2" class="dtSiswa">
             <h3>Data Siswa Kelas X 2</h3>
             <table border="1" id="tableX2">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
           <div id="dataSiswaX3" class="dtSiswa">
             <h3>Data Siswa Kelas X 3</h3>
             <table border="1" id="tableX3">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
 
@@ -159,40 +127,16 @@
           <div id="dataSiswaXI1" class="dtSiswa">
             <h3>Data Siswa Kelas XI 1</h3>
             <table border="1" id="tableXI1">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
           <div id="dataSiswaXI2" class="dtSiswa">
             <h3>Data Siswa Kelas XI 2</h3>
             <table border="1" id="tableXI2">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
           <div id="dataSiswaXI3" class="dtSiswa">
             <h3>Data Siswa Kelas XI 3</h3>
             <table border="1" id="tableXI3">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
 
@@ -200,40 +144,16 @@
           <div id="dataSiswaXII1" class="dtSiswa">
             <h3>Data Siswa Kelas XII 1</h3>
             <table border="1" id="tableXII1">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
           <div id="dataSiswaXII2" class="dtSiswa">
             <h3>Data Siswa Kelas XII 2</h3>
             <table border="1" id="tableXII2">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
           <div id="dataSiswaXII3" class="dtSiswa">
             <h3>Data Siswa Kelas XII 3</h3>
             <table border="1" id="tableXII3">
-              <tr>
-                <th>Nama</th>
-                <th>NISN</th>
-                <th>Jenis Kelamin</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Nomor Hp Orangtua</th>
-              </tr>
             </table>
           </div>
         </div>

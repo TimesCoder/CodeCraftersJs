@@ -9,27 +9,6 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <title>Data Guru</title>
-    <style>
-      .dataGuru {
-        width: 100%;
-        height: 200%;
-        background: white;
-        margin: 10px 10px;
-        padding: 10px 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        text-align: center;
-      }
-
-      .dataGuru table {
-        border-collapse: collapse;
-        text-align: center;
-        width: 100%;
-        height: 20pc;
-      }
-      .dtGuru {
-        display: none;
-      }
-    </style>
   </head>
   <body>
     <div class="side-menu">
@@ -54,19 +33,32 @@
         </li>
         <li>
           <img src="./assets/teacher2.png" alt="Data Guru" />&nbsp;<a
-          href="guru"
-          >Data Guru</a
-        >
+            href="guru"
+            >Data Guru</a
+          >
         </li>
         <li>
           <img src="./assets/school.png" alt="Data Kepala Sekolah" />&nbsp;Data
           Kepala Sekolah
         </li>
         <li>
-          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;Rekap
-          Absensi
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiSiswa"
+            >Rekap Absensi Siswa</a
+          >
         </li>
-        <li><img src="./assets/help-web-button.png" alt="Help" />&nbsp;Help</li>
+        <li>
+          <img src="./assets/payment.png" alt="Rekap Absensi" />&nbsp;<a
+            href="absensiGuru"
+            >Rekap Absensi Guru</a
+          >
+        </li>
+        <li>
+          <img src="./assets/help-web-button.png" alt="Help" />&nbsp;<a
+            href="about"
+            >About</a
+          >
+        </li>
       </ul>
     </div>
 
@@ -105,7 +97,7 @@
             </select>
             <br />
             <br />
-            <button><a href="gurujson">Lihat Semua Data Guru Berbentuk Json</a></button>
+            <a href="gurujson">Lihat Semua Data Guru Berbentuk Json</a>
           </div>
         </div>
         <input

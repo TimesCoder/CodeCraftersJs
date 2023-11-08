@@ -6,7 +6,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Melati",
     "email": "siti@example.com",
-    "nomorHpOrangTua": "081234567801"
+    "nomorHpOrangTua": "081234567801",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -15,7 +18,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Mawar",
     "email": "dewi@example.com",
-    "nomorHpOrangTua": "081234567802"
+    "nomorHpOrangTua": "081234567802",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -24,7 +30,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "adi@example.com",
-    "nomorHpOrangTua": "081234567803"
+    "nomorHpOrangTua": "081234567803",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -33,7 +42,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kamboja",
     "email": "eka@example.com",
-    "nomorHpOrangTua": "081234567804"
+    "nomorHpOrangTua": "081234567804",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -42,7 +54,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Dahlia",
     "email": "firman@example.com",
-    "nomorHpOrangTua": "081234567805"
+    "nomorHpOrangTua": "081234567805",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -51,7 +66,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kenanga",
     "email": "rina@example.com",
-    "nomorHpOrangTua": "081234567806"
+    "nomorHpOrangTua": "081234567806",
+    "absen": "Tidak Hadir",
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -60,7 +78,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Anggrek",
     "email": "agus@example.com",
-    "nomorHpOrangTua": "081234567807"
+    "nomorHpOrangTua": "081234567807",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -69,7 +90,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kamboja",
     "email": "sari@example.com",
-    "nomorHpOrangTua": "081234567808"
+    "nomorHpOrangTua": "081234567808",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -78,7 +102,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Mawar",
     "email": "ade@example.com",
-    "nomorHpOrangTua": "081234567809"
+    "nomorHpOrangTua": "081234567809",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -87,7 +114,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Melati",
     "email": "ani@example.com",
-    "nomorHpOrangTua": "081234567810"
+    "nomorHpOrangTua": "081234567810",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -96,7 +126,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "budi2@example.com",
-    "nomorHpOrangTua": "081234567811"
+    "nomorHpOrangTua": "081234567811",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -105,7 +138,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Dahlia",
     "email": "citra@example.com",
-    "nomorHpOrangTua": "081234567812"
+    "nomorHpOrangTua": "081234567812",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -114,7 +150,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Mawar",
     "email": "dito@example.com",
-    "nomorHpOrangTua": "081234567813"
+    "nomorHpOrangTua": "081234567813",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -123,7 +162,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Anggrek",
     "email": "eka2@example.com",
-    "nomorHpOrangTua": "081234567814"
+    "nomorHpOrangTua": "081234567814",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -132,7 +174,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kamboja",
     "email": "fajar@example.com",
-    "nomorHpOrangTua": "081234567815"
+    "nomorHpOrangTua": "081234567815",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -141,7 +186,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kenanga",
     "email": "gita@example.com",
-    "nomorHpOrangTua": "081234567816"
+    "nomorHpOrangTua": "081234567816",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -150,7 +198,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Cempaka",
     "email": "hadi@example.com",
-    "nomorHpOrangTua": "081234567817"
+    "nomorHpOrangTua": "081234567817",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -159,7 +210,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "indra@example.com",
-    "nomorHpOrangTua": "081234567818"
+    "nomorHpOrangTua": "081234567818",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X2",
@@ -168,7 +222,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Dahlia",
     "email": "juli@example.com",
-    "nomorHpOrangTua": "081234567819"
+    "nomorHpOrangTua": "081234567819",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -177,7 +234,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Teratai",
     "email": "kiki@example.com",
-    "nomorHpOrangTua": "081234567820"
+    "nomorHpOrangTua": "081234567820",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -186,7 +246,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Mawar",
     "email": "luki@example.com",
-    "nomorHpOrangTua": "081234567821"
+    "nomorHpOrangTua": "081234567821",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -195,7 +258,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Anggrek",
     "email": "mira@example.com",
-    "nomorHpOrangTua": "081234567822"
+    "nomorHpOrangTua": "081234567822",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -204,7 +270,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kamboja",
     "email": "nanda@example.com",
-    "nomorHpOrangTua": "081234567823"
+    "nomorHpOrangTua": "081234567823",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -213,7 +282,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kenanga",
     "email": "oky@example.com",
-    "nomorHpOrangTua": "081234567824"
+    "nomorHpOrangTua": "081234567824",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -222,7 +294,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Cempaka",
     "email": "putri@example.com",
-    "nomorHpOrangTua": "081234567825"
+    "nomorHpOrangTua": "081234567825",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -231,7 +306,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Teratai",
     "email": "qori@example.com",
-    "nomorHpOrangTua": "081234567826"
+    "nomorHpOrangTua": "081234567826",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -240,7 +318,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Dahlia",
     "email": "roni@example.com",
-    "nomorHpOrangTua": "081234567827"
+    "nomorHpOrangTua": "081234567827",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -249,7 +330,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Mawar",
     "email": "susi@example.com",
-    "nomorHpOrangTua": "081234567828"
+    "nomorHpOrangTua": "081234567828",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X3",
@@ -258,7 +342,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Anggrek",
     "email": "tito@example.com",
-    "nomorHpOrangTua": "081234567829"
+    "nomorHpOrangTua": "081234567829",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -267,7 +354,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Cempaka",
     "email": "rini@example.com",
-    "nomorHpOrangTua": "081234567830"
+    "nomorHpOrangTua": "081234567830",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -276,7 +366,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Melati",
     "email": "fauzan@example.com",
-    "nomorHpOrangTua": "081234567831"
+    "nomorHpOrangTua": "081234567831",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -285,7 +378,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Teratai",
     "email": "dita@example.com",
-    "nomorHpOrangTua": "081234567832"
+    "nomorHpOrangTua": "081234567832",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -294,7 +390,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Dahlia",
     "email": "aldi@example.com",
-    "nomorHpOrangTua": "081234567833"
+    "nomorHpOrangTua": "081234567833",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -303,7 +402,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Mawar",
     "email": "nina@example.com",
-    "nomorHpOrangTua": "081234567834"
+    "nomorHpOrangTua": "081234567834",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -312,7 +414,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Anggrek",
     "email": "rizal@example.com",
-    "nomorHpOrangTua": "081234567835"
+    "nomorHpOrangTua": "081234567835",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -321,7 +426,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kamboja",
     "email": "mita@example.com",
-    "nomorHpOrangTua": "081234567836"
+    "nomorHpOrangTua": "081234567836",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -330,7 +438,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kenanga",
     "email": "edo@example.com",
-    "nomorHpOrangTua": "081234567837"
+    "nomorHpOrangTua": "081234567837",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -339,7 +450,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Cempaka",
     "email": "sasa@example.com",
-    "nomorHpOrangTua": "081234567838"
+    "nomorHpOrangTua": "081234567838",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI1",
@@ -348,7 +462,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "rizky@example.com",
-    "nomorHpOrangTua": "081234567839"
+    "nomorHpOrangTua": "081234567839",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -357,7 +474,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Dahlia",
     "email": "risa@example.com",
-    "nomorHpOrangTua": "081234567840"
+    "nomorHpOrangTua": "081234567840",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -366,7 +486,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Mawar",
     "email": "fandi@example.com",
-    "nomorHpOrangTua": "081234567841"
+    "nomorHpOrangTua": "081234567841",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -375,7 +498,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Anggrek",
     "email": "nita@example.com",
-    "nomorHpOrangTua": "081234567842"
+    "nomorHpOrangTua": "081234567842",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -384,7 +510,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kamboja",
     "email": "doni@example.com",
-    "nomorHpOrangTua": "081234567843"
+    "nomorHpOrangTua": "081234567843",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -393,7 +522,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kenanga",
     "email": "lia@example.com",
-    "nomorHpOrangTua": "081234567844"
+    "nomorHpOrangTua": "081234567844",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -402,7 +534,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Cempaka",
     "email": "firman2@example.com",
-    "nomorHpOrangTua": "081234567845"
+    "nomorHpOrangTua": "081234567845",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -411,7 +546,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Teratai",
     "email": "sari2@example.com",
-    "nomorHpOrangTua": "081234567846"
+    "nomorHpOrangTua": "081234567846",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -420,7 +558,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Dahlia",
     "email": "rudi@example.com",
-    "nomorHpOrangTua": "081234567847"
+    "nomorHpOrangTua": "081234567847",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -429,7 +570,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Mawar",
     "email": "nina2@example.com",
-    "nomorHpOrangTua": "081234567848"
+    "nomorHpOrangTua": "081234567848",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI2",
@@ -438,7 +582,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Anggrek",
     "email": "gandi@example.com",
-    "nomorHpOrangTua": "081234567849"
+    "nomorHpOrangTua": "081234567849",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -447,7 +594,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Teratai",
     "email": "gita2@example.com",
-    "nomorHpOrangTua": "081234567860"
+    "nomorHpOrangTua": "081234567860",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -456,7 +606,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Dahlia",
     "email": "firman3@example.com",
-    "nomorHpOrangTua": "081234567861"
+    "nomorHpOrangTua": "081234567861",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -465,7 +618,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Mawar",
     "email": "sari4@example.com",
-    "nomorHpOrangTua": "081234567862"
+    "nomorHpOrangTua": "081234567862",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -474,7 +630,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Anggrek",
     "email": "rudi2@example.com",
-    "nomorHpOrangTua": "081234567863"
+    "nomorHpOrangTua": "081234567863",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -483,7 +642,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kamboja",
     "email": "nina3@example.com",
-    "nomorHpOrangTua": "081234567864"
+    "nomorHpOrangTua": "081234567864",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -492,7 +654,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kenanga",
     "email": "gandi2@example.com",
-    "nomorHpOrangTua": "081234567865"
+    "nomorHpOrangTua": "081234567865",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -501,7 +666,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Cempaka",
     "email": "risa2@example.com",
-    "nomorHpOrangTua": "081234567866"
+    "nomorHpOrangTua": "081234567866",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -510,7 +678,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "doni2@example.com",
-    "nomorHpOrangTua": "081234567867"
+    "nomorHpOrangTua": "081234567867",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -519,7 +690,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Dahlia",
     "email": "lia2@example.com",
-    "nomorHpOrangTua": "081234567868"
+    "nomorHpOrangTua": "081234567868",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XI3",
@@ -528,7 +702,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Mawar",
     "email": "fandi2@example.com",
-    "nomorHpOrangTua": "081234567869"
+    "nomorHpOrangTua": "081234567869",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -537,7 +714,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kamboja",
     "email": "rina2@example.com",
-    "nomorHpOrangTua": "081234567850"
+    "nomorHpOrangTua": "081234567850",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -546,7 +726,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kenanga",
     "email": "feri@example.com",
-    "nomorHpOrangTua": "081234567851"
+    "nomorHpOrangTua": "081234567851",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -555,7 +738,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Cempaka",
     "email": "dewi2@example.com",
-    "nomorHpOrangTua": "081234567852"
+    "nomorHpOrangTua": "081234567852",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -564,7 +750,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "asep@example.com",
-    "nomorHpOrangTua": "081234567853"
+    "nomorHpOrangTua": "081234567853",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -573,7 +762,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Dahlia",
     "email": "nani@example.com",
-    "nomorHpOrangTua": "081234567854"
+    "nomorHpOrangTua": "081234567854",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -582,7 +774,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Mawar",
     "email": "rizky2@example.com",
-    "nomorHpOrangTua": "081234567855"
+    "nomorHpOrangTua": "081234567855",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -591,7 +786,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Anggrek",
     "email": "citra2@example.com",
-    "nomorHpOrangTua": "081234567856"
+    "nomorHpOrangTua": "081234567856",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -600,7 +798,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kamboja",
     "email": "dedi@example.com",
-    "nomorHpOrangTua": "081234567857"
+    "nomorHpOrangTua": "081234567857",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -609,7 +810,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kenanga",
     "email": "sari3@example.com",
-    "nomorHpOrangTua": "081234567858"
+    "nomorHpOrangTua": "081234567858",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII1",
@@ -618,7 +822,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Cempaka",
     "email": "roni2@example.com",
-    "nomorHpOrangTua": "081234567859"
+    "nomorHpOrangTua": "081234567859",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -627,7 +834,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Anggrek",
     "email": "nita4@example.com",
-    "nomorHpOrangTua": "081234567870"
+    "nomorHpOrangTua": "081234567870",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -636,7 +846,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kamboja",
     "email": "doni3@example.com",
-    "nomorHpOrangTua": "081234567871"
+    "nomorHpOrangTua": "081234567871",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -645,7 +858,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kenanga",
     "email": "lia3@example.com",
-    "nomorHpOrangTua": "081234567872"
+    "nomorHpOrangTua": "081234567872",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -654,7 +870,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Cempaka",
     "email": "firman4@example.com",
-    "nomorHpOrangTua": "081234567873"
+    "nomorHpOrangTua": "081234567873",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -663,7 +882,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Teratai",
     "email": "sari5@example.com",
-    "nomorHpOrangTua": "081234567874"
+    "nomorHpOrangTua": "081234567874",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -672,7 +894,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Dahlia",
     "email": "rudi3@example.com",
-    "nomorHpOrangTua": "081234567875"
+    "nomorHpOrangTua": "081234567875",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -681,7 +906,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Mawar",
     "email": "nina5@example.com",
-    "nomorHpOrangTua": "081234567876"
+    "nomorHpOrangTua": "081234567876",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -690,7 +918,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Anggrek",
     "email": "gandi3@example.com",
-    "nomorHpOrangTua": "081234567877"
+    "nomorHpOrangTua": "081234567877",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -699,7 +930,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kamboja",
     "email": "risa3@example.com",
-    "nomorHpOrangTua": "081234567878"
+    "nomorHpOrangTua": "081234567878",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII2",
@@ -708,7 +942,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kenanga",
     "email": "fandi3@example.com",
-    "nomorHpOrangTua": "081234567879"
+    "nomorHpOrangTua": "081234567879",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -717,7 +954,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Teratai",
     "email": "dina4@example.com",
-    "nomorHpOrangTua": "081234567880"
+    "nomorHpOrangTua": "081234567880",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -726,7 +966,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Dahlia",
     "email": "rama4@example.com",
-    "nomorHpOrangTua": "081234567881"
+    "nomorHpOrangTua": "081234567881",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -735,7 +978,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Kenanga",
     "email": "wati4@example.com",
-    "nomorHpOrangTua": "081234567882"
+    "nomorHpOrangTua": "081234567882",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -744,7 +990,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Melati",
     "email": "fauzi4@example.com",
-    "nomorHpOrangTua": "081234567883"
+    "nomorHpOrangTua": "081234567883",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -753,7 +1002,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Cempaka",
     "email": "rina4@example.com",
-    "nomorHpOrangTua": "081234567884"
+    "nomorHpOrangTua": "081234567884",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -762,7 +1014,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "gandi4@example.com",
-    "nomorHpOrangTua": "081234567885"
+    "nomorHpOrangTua": "081234567885",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -771,7 +1026,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Anggrek",
     "email": "nina6@example.com",
-    "nomorHpOrangTua": "081234567886"
+    "nomorHpOrangTua": "081234567886",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -780,7 +1038,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Kamboja",
     "email": "rama5@example.com",
-    "nomorHpOrangTua": "081234567887"
+    "nomorHpOrangTua": "081234567887",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -789,7 +1050,10 @@
     "jenisKelamin": "Perempuan",
     "alamat": "Jalan Mawar",
     "email": "wati5@example.com",
-    "nomorHpOrangTua": "081234567888"
+    "nomorHpOrangTua": "081234567888",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "XII3",
@@ -798,7 +1062,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Teratai",
     "email": "fauzi5@example.com",
-    "nomorHpOrangTua": "081234567889"
+    "nomorHpOrangTua": "081234567889",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {
     "kelas": "X1",
@@ -807,7 +1074,10 @@
     "jenisKelamin": "Laki-laki",
     "alamat": "Jalan Anggrek",
     "email": "budi@example.com",
-    "nomorHpOrangTua": "081234567800"
+    "nomorHpOrangTua": "081234567800",
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   },
   {},
   {}
