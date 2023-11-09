@@ -1,0 +1,20 @@
+Langkah langkah program
+
+- langkah awal melakukan proses npm start, setelah itu akan di alihkan ke halaman login dan register {http://localhost:3000/register}
+- di halaman login dan register anda di haruskan untuk melakukan register terlebih dahulu lalu melakukan login sesuai dengan email dan password yang telah anda set
+- lalu anda akan di alihkan ke halaman menu utama yaitu home {http://localhost:3000/home} yang berisikan jumlah siswa dan jumlah guru
+- lalu anda dapat melakukan beralih ke halaman data siswa {http://localhost:3000/siswa} dimana akan ada pemilihan kelas 
+- lalu itu anda dapat beralih halaman data guru {http://localhost:3000/guru} dimana akan ada pemilihan kelas untuk melihat guru yang mengajar dikelas tersebut 
+- setelah itu di {http://localhost:3000/siswa} atau {http://localhost:3000/guru} kami menyediakan sebuah link sebuah data siswa berbentuk json kami simpan berikut path nya{http://localhost:3000/siswajson} atau {http://localhost:3000/gurujson}
+- halaman data kepala sekola {http://localhost:3000/kepalaSekolah}
+- halaman rekap absensi mahasiswa {http://localhost:3000/absensiSiswa}
+- halaman rekap absensi guru {http://localhost:3000/absensiGuru}
+- halaman about {http://localhost:3000/about}
+
+
+Perhatiaan !!
+
+Di project ini kami mengimport bodyparser yang merupakan module dari Express yang digunakan untuk memproses atau menguraikan data json yang dikirim dalam body request HTTP.
+Nah dengan bodyparser ini kami membuat routing POST, PUT dan DELETE yang dimana proses atau penguraian dilakukan di data json secara langsung.
+
+

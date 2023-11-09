@@ -1,3 +1,4 @@
+// Memanggil data siswa dari file dataSiswa.json dengan menggunakan async await dan fetch API untuk menampilkan data siswa berdasarkan kelas yang telah dibuat
 async function getData() {
   try {
     const response = await fetch('dataSiswa.json');
@@ -12,7 +13,7 @@ async function getData() {
 async function ambilData() {
   try {
     const dataSiswa = await getData();
-
+    // Membuat Variabel uang akan menampung data siswa dengan filter getEmelentsById untuk menampilkan data siswa berdasarkan kelas
     const tables = {
       X1: document.getElementById('tableX1'),
       X2: document.getElementById('tableX2'),
@@ -25,10 +26,11 @@ async function ambilData() {
       XII3: document.getElementById('tableXII3'),
     };
 
+    // Membuat perulangan untuk menampilkan data siswa berdasarkan kelas yang telah dibuat dengan memfilter data siswa berdasarkan kelas
     for (const kelas in tables) {
       const dataSiswaKelas = dataSiswa.filter((item) => item.kelas === kelas);
       const table = tables[kelas];
-
+      // Menampilkan data siswa berdasarkan kelas yang telah dibuat
       table.innerHTML = `
             <tr>
               <th>Nama</th>
@@ -40,6 +42,7 @@ async function ambilData() {
             </tr>
           `;
 
+      // menggunakan foEach untuk menampilkan data siswa berdasarkan kelas yang telah dibuat
       dataSiswaKelas.forEach((item) => {
         table.innerHTML += `
           <tr>
@@ -54,6 +57,7 @@ async function ambilData() {
       });
     }
 
+    // Membuat fungsi untuk menampilkan data siswa berdasarkan kelas yang telah dibuat ketika kelas dipilih pada select option kelas fungsi ini akan berjalan untuk menampilkan data siswa berdasarkan kelas yang dipilih dan menyembunyikan data siswa berdasarkan kelas yang tidak dipilih
     const kelasSelect = document.getElementById('kelas');
     const dataSiswaElements = {
       X1: document.getElementById('dataSiswaX1'),
@@ -67,6 +71,7 @@ async function ambilData() {
       XII3: document.getElementById('dataSiswaXII3'),
     };
 
+    //
     kelasSelect.addEventListener('change', (e) => {
       for (const kelas in dataSiswaElements) {
         dataSiswaElements[kelas].style.display =
@@ -74,9 +79,10 @@ async function ambilData() {
       }
     });
 
-    // Membuat fungsi search
+    // Membuat fungsi search untuk mencari data siswa berdasarkan nama, nisn, dan alamat
     const searchInput = document.getElementById('cari');
     searchInput.addEventListener('keyup', (e) => {
+      // Membuat variabel keyword untuk menampung keyword yang diinputkan oleh pengguna
       const keyword = e.target.value.toLowerCase();
       for (const kelas in tables) {
         if (
@@ -90,6 +96,7 @@ async function ambilData() {
           kelas === 'XII2' ||
           kelas === 'XII3'
         ) {
+          // Membuat variabel dataSiswaKelas untuk menampung data siswa berdasarkan kelas yang telah dibuat dengan memfilter data siswa berdasarkan kelas
           const dataSiswaKelas = dataSiswa.filter(
             (item) => item.kelas === kelas
           );
@@ -126,7 +133,7 @@ async function ambilData() {
           });
         }
 
-        // Jika pencarian selesai, kembalikan tampilan awal
+        // Jika pencarian selesai, kembalikan tampilan awal tabel siswa berdasarkan kelas yang telah dibuat
         else if (keyword === '') {
           const dataSiswaKelasAwal = dataSiswa.filter(
             (item) => item.kelas === kelas

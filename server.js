@@ -24,8 +24,7 @@ const dataGuruPath = __dirname + '/public/dataGuru.json';
 
 // Method for root path '/' Error 404
 app.get('/', (req, res) => {
-  res.statusCode = 404;
-  res.send('404 Not Found');
+  res.statusCode(404).send('404 Not Found');
 });
 
 // Method for static files
@@ -33,19 +32,16 @@ app.use(express.static(__dirname + '/public'));
 
 // GET method for login.html
 app.get('/login', (req, res) => {
-  res.statusCode = 200;
   res.sendFile(__dirname + '/public/login.html');
 });
 
 // GET method for registrasi.html
 app.get('/register', (req, res) => {
-  res.statusCode = 200;
   res.sendFile(__dirname + '/public/registrasi.html');
 });
 
 // GET method for home.html
 app.get('/home', (req, res) => {
-  res.statusCode = 200;
   res.sendFile(__dirname + '/public/index.html');
 });
 
@@ -56,19 +52,19 @@ app.get('/absensi', (req, res) => {
 
 // GET method for dataGuru.html
 app.get('/guru', (req, res) => {
-  res.statusCode = 200;
   res.sendFile(__dirname + '/public/dataGuru.html');
 });
 
 // GET method for dataSiswa.html
 app.get('/siswa', (req, res) => {
-  res.statusCode = 200;
   res.sendFile(__dirname + '/public/dataSiswa.html');
 });
 
 // Read data from JSON files
 const getDataFromFile = (filePath) => {
+  // membuat variabel untuk menyimpan data json yang sudah di parse
   const data = fs.readFileSync(filePath);
+  // Mengembalikan atau mengirim data ke dalam variabel data
   return JSON.parse(data);
 };
 
@@ -85,14 +81,18 @@ app.get('/siswajson', (req, res) => {
 
 app.get('/siswajson/:nisn', (req, res) => {
   const data = getDataFromFile(dataSiswaPath);
+  // Mengembalikan data json dengan mencari dan menguraikan peritem apakah nisn yang ada di data json sama dengan yang di minta oleh pengguna
   res.json(data.find((item) => item.nisn === req.params.nisn));
 });
 
 // POST method for dataSiswa.json
 app.post('/siswajson', (req, res) => {
+  // Membuat variabel untuk menampung permintaan penambahan data di body dengan req.body
   const newData = req.body;
   const data = getDataFromFile(dataSiswaPath);
+  // mengirimkan newData yang baru dibuat ke dalam data menggunakan push 
   data.push(newData);
+  // Kemudian data akan dibaca ketika berhasil menampilkan bahwa data berhasi ditambahkan
   writeDataToFile(dataSiswaPath, data);
   res.status(201).json({ message: 'Data added successfully' });
 });
@@ -189,6 +189,11 @@ app.get('/absensiGuru', (req, res) => {
 // GET method for about.html
 app.get('/about', (req, res) => {
   res.sendFile(__dirname + '/public/about.html');
+});
+
+// GET method for kepalaSekolah.html
+app.get('/kepalaSekolah', (req, res) => {
+  res.sendFile(__dirname + '/public/kepalaSekolah.html');
 });
 
 // Start server

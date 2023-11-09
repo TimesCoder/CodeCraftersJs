@@ -1,3 +1,8 @@
+// fungsi ambilData() akan dijalankan ketika halaman di-load (lihat baris terakhir) dan akan memanggil fungsi getData() untuk mengambil data dari file dataGuru.json. Fungsi getData() akan mengembalikan data dalam bentuk array of object. Kemudian data tersebut akan diolah dan ditampilkan ke dalam tabel.
+//
+
+// Fungsi yang di lakukan di file ini adalah sama dengan file siswa.js hanya saja data yang di tampilkan berbeda yaitu data siswa yang di ambil dari file dataSiswa.json
+
 async function getData() {
   try {
     const response = await fetch('dataSiswa.json');

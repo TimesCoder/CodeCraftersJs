@@ -1,309 +1,312 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lora', serif;
-    cursor: pointer;
-  }
-  
-  body {
-    min-height: 100vh;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  h1,
-  h2 {
-    color: rgb(6, 152, 178);
-  }
-  
-  h3 {
-    color: #999;
-  }
-  
-  .login-link {
-    position: relative;
-    width: 50px;
-    height: 50px;
-  }
-  
-  .btn {
-    background: #f05462;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-  }
-  
-  .btn:hover {
-    color: #f05462;
-    background: white;
-    padding: 3px 8px;
-    border: 2px solid #f05462;
-  }
-  
-  .title {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 15px 10px;
-    border-bottom: 2px solid #f05462;
-  }
-  
-  table {
-    padding: 10px;
-  }
-  
-  th,
-  td {
-    text-align: left;
-    padding: 8px;
-  }
-  
-  .side-menu {
-    position: fixed;
-    background: #cebea5;
-    width: 20vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-  
-  .brand-name {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .brand-name img {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .brand-name p {
-    margin: 10px 0;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  .login-link {
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .side-menu ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .side-menu li {
-    font-size: 20px;
-    padding: 25px 0;
-    color: rgb(101, 77, 55);
-    display: flex;
-    align-items: center;
-  }
-  
-  .side-menu li img {
-    margin-right: 10px;
-  }
-  
-  .side-menu li:hover {
-    background: white;
-    color: #777;
-  }
-  
-  .container {
-    position: absolute;
-    right: 0;
-    width: 80vw;
-    height: 100vh;
-    background-color: rgb(129, 100, 73);
-  }
-  
-  .header {
-    background: rgb(129, 100, 73);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  .header .nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .header .nav .search {
-    flex: 3;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header .nav .search input[type='text'] {
-    border: none;
-    background: #f1f1f1;
-    padding: 10px;
-    width: 50%;
-  }
-  
-  .header .nav .search button {
-    width: 40px;
-    height: 40px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .header .nav .search button img {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .header .nav .user {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header .nav .user img {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .header .nav .user .img-case {
-    position: relative;
-    width: 50px;
-    height: 50px;
-  }
-  
-  .header .nav .user .img-case img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-  .container .content {
-    position: relative;
-    margin-top: 10vh;
-    min-height: 90vh;
-  }
-  
-  .card {
-    width: 94.7pc;
-    height: 150px;
-    background: white;
-    margin: 20px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
-  }
-  
-  .box {
-    text-align: center;
-  }
-  
-  .container .content {
-    min-height: 60vh;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  cursor: pointer;
+}
 
-  .profile {
-    text-align: center;
-  }
-  
-  .profile img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%; /* Untuk gambar bundar (sesuaikan sesuai kebutuhan) */
-    display: block;
-    margin: 0 auto; /* Mengatur margin horizontal menjadi auto untuk memusatkan gambar */
-    margin-left: 600px;
-  }
-  
-  .description {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 20px;
-  }
+body {
+  min-height: 100vh;
+}
 
-  .container .left-div {
-    float: left;
-    width: 50%;
-    padding: 20px;
-  }
-  
-  .container .right-div {
-    float: right;
-    width: 50%;
-    padding: 20px;
-  }
-  
-  .profile {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  /* Gaya untuk gambar profil */
-  .profile img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%; /* Membuat gambar bundar */
-    display: block;
-    margin: 0 auto; /* Memusatkan gambar horizontal */
-  }
-  
-  .description {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 20px;
-  }
-  
-  /* Gaya untuk teks deskripsi */
-  .description h2 {
-    color: rgb(6, 152, 178); /* Warna judul */
-    font-size: 24px; /* Ukuran font judul */
-    margin-bottom: 10px; /* Ruang bawah judul */
-  }
-  
-  .description p {
-    color: #333; /* Warna teks deskripsi */
-    font-size: 18px; /* Ukuran font teks deskripsi */
-    line-height: 1.4; /* Jarak baris */
-    margin: 0; /* Hapus margin bawaan */
-  }
-  .container .center-div {
-    width: 100%; /* Memiliki lebar 100% */
-    display: flex;
-    flex-direction: column; /* Membuat elemen berada dalam satu kolom */
-  }
-  
-  .container .left-div, .container .right-div {
-    width: 100%; /* Memiliki lebar 100% agar terisi seluruh lebar div tengah */
-    padding: 20px;
-  }
+a {
+  text-decoration: none;
+}
+p,
+a {
+  color: rgb(101, 77, 55);
+}
 
-  
-  
-  
-  
-  
+li {
+  list-style: none;
+}
 
-  
+h1,
+h2,
+h3 {
+  color: #999;
+}
+
+.login-link {
+  position: relative;
+  font-size: 20px;
+}
+
+.btn {
+  background: #f05462;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #f05462;
+  background: white;
+  padding: 3px 8px;
+  border: 2px solid #f05462;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 10px;
+  border-bottom: 2px solid #f05462;
+}
+
+table {
+  padding: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.side-menu {
+  position: fixed;
+  background: #cebea5;
+  width: 20vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.brand-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.brand-name img {
+  width: 50px;
+  height: 50px;
+}
+
+.brand-name p {
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.login-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu li {
+  font-size: 20px;
+  padding: 25px 0;
+  color: rgb(101, 77, 55);
+  display: flex;
+  align-items: center;
+}
+
+.side-menu li img {
+  margin-right: 10px;
+}
+
+.side-menu li:hover {
+  background: white;
+  color: #777;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  width: 80vw;
+  height: 100vh;
+  background-color: rgb(129, 100, 73);
+}
+
+.header {
+  background: rgb(129, 100, 73);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.header .nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header .nav .search {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.header .nav .search input[type='text'] {
+  border: none;
+  background: #f1f1f1;
+  padding: 10px;
+  width: 50%;
+}
+
+.header .nav .search button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .nav .search button img {
+  width: 30px;
+  height: 30px;
+}
+
+.header .nav .user {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav .user img {
+  width: 40px;
+  height: 40px;
+}
+
+.header .nav .user .img-case {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.header .nav .user .img-case img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container .content {
+  position: relative;
+  margin-top: 10vh;
+  min-height: 90vh;
+}
+
+.card {
+  width: 94.7pc;
+  height: 150px;
+  background: white;
+  margin: 20px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.box {
+  text-align: center;
+}
+
+.container .content {
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Untuk gambar bundar (sesuaikan sesuai kebutuhan) */
+  display: block;
+  margin: 0 auto; /* Mengatur margin horizontal menjadi auto untuk memusatkan gambar */
+  margin-left: 600px;
+}
+
+.description {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.description h2,
+p {
+  text-align: center;
+}
+.description p {
+  color: white; /* Warna teks deskripsi */
+  font-size: 18px; /* Ukuran font teks deskripsi */
+  line-height: 1.4; /* Jarak baris */
+  margin: 0; /* Hapus margin bawaan */
+}
+
+.container .left-div {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.container .right-div {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Gaya untuk gambar profil */
+.profile img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Membuat gambar bundar */
+  display: block;
+  margin: 0 auto; /* Memusatkan gambar horizontal */
+}
+
+.description {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Gaya untuk teks deskripsi */
+.description h2 {
+  color: #333; /* Warna teks judul */
+  margin-bottom: 10px; /* Ruang bawah judul */
+}
+
+.description p {
+  color: #333; /* Warna teks deskripsi */
+  font-size: 18px; /* Ukuran font teks deskripsi */
+  line-height: 1.4; /* Jarak baris */
+  margin: 0; /* Hapus margin bawaan */
+}
+.container .center-div {
+  width: 100%; /* Memiliki lebar 100% */
+  display: flex;
+  flex-direction: column; /* Membuat elemen berada dalam satu kolom */
+}
+
+.container .left-div,
+.container .right-div {
+  width: 100%; /* Memiliki lebar 100% agar terisi seluruh lebar div tengah */
+  padding: 20px;
+}
