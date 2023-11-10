@@ -25,18 +25,6 @@
   },
   {
     "kelas": "X1",
-    "nama": "Adi",
-    "nisn": "987654324",
-    "jenisKelamin": "Laki-laki",
-    "alamat": "Jalan Teratai",
-    "email": "adi@example.com",
-    "nomorHpOrangTua": "081234567803",
-    "absen": "Tidak Hadir",
-    "hari": "Senin",
-    "tanggal": "2023-10-30"
-  },
-  {
-    "kelas": "X1",
     "nama": "Eka",
     "nisn": "987654325",
     "jenisKelamin": "Perempuan",
@@ -1080,5 +1068,17 @@
     "tanggal": "2023-10-30"
   },
   {},
-  {}
+  {},
+  {
+    "kelas": "X1",
+    "nama": "Adi",
+    "nisn": "987654324",
+    "jenisKelamin": "Laki-laki",
+    "alamat": "Jalan Teratai",
+    "email": "adi@example.com",
+    "nomorHpOrangTua": "081234567992",
+    "absen": false,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
+  }
 ]

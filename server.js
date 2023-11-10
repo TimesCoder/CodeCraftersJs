@@ -90,7 +90,7 @@ app.post('/siswajson', (req, res) => {
   // Membuat variabel untuk menampung permintaan penambahan data di body dengan req.body
   const newData = req.body;
   const data = getDataFromFile(dataSiswaPath);
-  // mengirimkan newData yang baru dibuat ke dalam data menggunakan push 
+  // mengirimkan newData yang baru dibuat ke dalam data menggunakan push
   data.push(newData);
   // Kemudian data akan dibaca ketika berhasil menampilkan bahwa data berhasi ditambahkan
   writeDataToFile(dataSiswaPath, data);
@@ -181,9 +181,51 @@ app.get('/absensiSiswa', (req, res) => {
   res.sendFile(__dirname + '/public/absensiSiswa.html');
 });
 
+app.get('/absensiSiswa/:nisn', (req, res) => {
+  const data = getDataFromFile(dataSiswaPath);
+  res.json(data.find((item) => item.nisn === req.params.nisn));
+});
+
+// PUT method for absensiSiswa.html
+app.put('/absensiSiswa/:nisn', (req, res) => {
+  const nisn = req.params.nisn;
+  const updatedData = req.body;
+  const data = getDataFromFile(dataSiswaPath);
+  const dataIndex = data.findIndex((item) => item.nisn === nisn);
+
+  if (dataIndex !== -1) {
+    data[dataIndex] = { ...data[dataIndex], ...updatedData };
+    writeDataToFile(dataSiswaPath, data);
+    res.json({ message: 'Data updated successfully' });
+  } else {
+    res.status(404).json({ message: 'Data not found' });
+  }
+});
+
 // GET method for absensiGuru.html
 app.get('/absensiGuru', (req, res) => {
   res.sendFile(__dirname + '/public/absensiGuru.html');
+});
+
+app.get('/absensiGuru/:nip', (req, res) => {
+  const data = getDataFromFile(dataGuruPath);
+  res.json(data.find((item) => item.nip === req.params.nip));
+});
+
+// PUT method for absensiGuru.html
+app.put('/absensiGuru/:nip', (req, res) => {
+  const nip = req.params.nip;
+  const updatedData = req.body;
+  const data = getDataFromFile(dataGuruPath);
+  const dataIndex = data.findIndex((item) => item.nip === nip);
+
+  if (dataIndex !== -1) {
+    data[dataIndex] = { ...data[dataIndex], ...updatedData };
+    writeDataToFile(dataGuruPath, data);
+    res.json({ message: 'Data updated successfully' });
+  } else {
+    res.status(404).json({ message: 'Data not found' });
+  }
 });
 
 // GET method for about.html

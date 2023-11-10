@@ -1,7 +1,4 @@
 // Fungsi yang di lakukan di file ini adalah sama dengan file siswa.js hanya saja data yang di tampilkan berbeda yaitu data guru yang di ambil dari file dataGuru.json
-
-
-
 async function getData() {
   try {
     const response = await fetch('dataGuru.json');
