@@ -1,4 +1,5 @@
 // Fungsi yang di lakukan di file ini adalah sama dengan file siswa.js hanya saja data yang di tampilkan berbeda yaitu data guru yang di ambil dari file dataGuru.json
+
 async function getData() {
   try {
     const response = await fetch('dataGuru.json');
@@ -10,10 +11,13 @@ async function getData() {
   }
 }
 
+// Fungsi untuk mengambil data guru dan menampilkan visualisasi presensi kelas
 async function ambilData() {
   try {
+    // Mengambil data guru secara asinkron
     const dataGuru = await getData();
 
+    // Objek tabel untuk berbagai kelas
     const tables = {
       X1: document.getElementById('tableX1'),
       X2: document.getElementById('tableX2'),
@@ -26,6 +30,7 @@ async function ambilData() {
       XII2: document.getElementById('tableXII3'),
     };
 
+    // Iterasi melalui tabel dan mengisi dengan data guru
     for (const kelas in tables) {
       const dataGuruKelas = dataGuru.filter((item) => item.kelas === kelas);
       const table = tables[kelas];
@@ -55,6 +60,7 @@ async function ambilData() {
       });
     }
 
+    // Menangani perubahan pilihan kelas
     const kelasSelect = document.getElementById('kelas');
     const dataGuruElement = {
       X1: document.getElementById('dataGuruX1'),
@@ -146,6 +152,7 @@ async function ambilData() {
         }
       }
     });
+    // Menangani kesalahan saat mengambil data
   } catch (error) {
     console.log('Error in ambilData', error);
   }

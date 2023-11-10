@@ -10,10 +10,13 @@ async function getData() {
   }
 }
 
+// Fungsi untuk mengambil data guru dan siswamenampilkan visualisasi presensi kelas
 async function ambilData() {
   try {
+    // Mengambil data guru secara asinkron
     const dataGuru = await getData();
 
+    // Objek tabel untuk berbagai kelas
     const tables = {
       X1: document.getElementById('tableX1'),
       X2: document.getElementById('tableX2'),
@@ -26,6 +29,7 @@ async function ambilData() {
       XII3: document.getElementById('tableXII3'),
     };
 
+    // Iterasi melalui tabel dan mengisi dengan data guru
     for (const kelas in tables) {
       const dataGuruKelas = dataGuru.filter((item) => item.kelas === kelas);
       const table = tables[kelas];
@@ -55,6 +59,7 @@ async function ambilData() {
       });
     }
 
+    // Menangani perubahan pilihan kelas
     const kelasSelect = document.getElementById('kelas');
     const dataGuruElement = {
       X1: document.getElementById('dataGuruX1'),

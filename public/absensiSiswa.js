@@ -13,11 +13,13 @@ async function getData() {
     throw error;
   }
 }
-
+// Fungsi untuk mengambil data siswa dan siswamenampilkan visualisasi presensi kelas
 async function ambilData() {
   try {
+    // Mengambil data guru secara asinkron
     const dataSiswa = await getData();
 
+    // Objek tabel untuk berbagai kelas
     const tables = {
       X1: document.getElementById('tableX1'),
       X2: document.getElementById('tableX2'),
@@ -30,6 +32,7 @@ async function ambilData() {
       XII3: document.getElementById('tableXII3'),
     };
 
+    // Iterasi melalui tabel dan mengisi dengan data guru
     for (const kelas in tables) {
       const dataSiswaKelas = dataSiswa.filter((item) => item.kelas === kelas);
       const table = tables[kelas];
@@ -65,6 +68,7 @@ async function ambilData() {
       });
     }
 
+    // Menangani perubahan pilihan kelas
     const kelasSelect = document.getElementById('kelas');
     const dataSiswaElements = {
       X1: document.getElementById('dataSiswaX1'),
@@ -77,7 +81,8 @@ async function ambilData() {
       XII2: document.getElementById('dataSiswaXII2'),
       XII3: document.getElementById('dataSiswaXII3'),
     };
-
+    
+    
     kelasSelect.addEventListener('change', (e) => {
       for (const kelas in dataSiswaElements) {
         dataSiswaElements[kelas].style.display =
@@ -85,6 +90,7 @@ async function ambilData() {
       }
     });
 
+    // Membuat fungsi search
     const searchInput = document.getElementById('cari');
     searchInput.addEventListener('keyup', (e) => {
       const keyword = e.target.value.toLowerCase();
