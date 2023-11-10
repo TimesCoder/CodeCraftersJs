@@ -143,7 +143,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X2",
     "nama": "Guru Kelas X2",
@@ -156,7 +155,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X2",
     "nama": "Guru Kelas X2",
@@ -169,7 +167,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X2",
     "nama": "Guru Kelas X2",
@@ -182,7 +179,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X2",
     "nama": "Guru Kelas X2",
@@ -195,7 +191,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X2",
     "nama": "Guru Kelas X2",
@@ -208,7 +203,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X2",
     "nama": "Guru Kelas X2",
@@ -233,7 +227,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X2",
     "nama": "Guru Kelas X2",
@@ -246,7 +239,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X3",
     "nama": "Guru Kelas X3",
@@ -259,7 +251,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X3",
     "nama": "Guru Kelas X3",
@@ -272,7 +263,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X3",
     "nama": "Guru Kelas X3",
@@ -285,7 +275,6 @@
     "hari": "Senin",
     "tanggal": "2023-10-30"
   },
-
   {
     "kelas": "X3",
     "nama": "Guru Kelas X3",
@@ -1113,5 +1102,14 @@
     "absen": true,
     "hari": "Senin",
     "tanggal": "2023-10-30"
+  },
+  {
+    "kelas": "X1",
+    "nama": "Sit",
+    "nisn": "987654322",
+    "jenisKelamin": "Perempuan",
+    "alamat": "Jalan Mawar",
+    "email": "siti@example.com",
+    "nomorHpOrangTua": "0812345688321"
   }
 ]
