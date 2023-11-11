@@ -37,7 +37,7 @@ async function ambilData() {
 
       table.innerHTML = `
             <tr>
-              <th>Nomor</th>
+              <th>No</th>
               <th>Hari/Tanggal</th>
               <th>NIP</th>
               <th>Nama</th>

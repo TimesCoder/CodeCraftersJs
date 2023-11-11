@@ -33,6 +33,7 @@ async function ambilData() {
       // Menampilkan data siswa berdasarkan kelas yang telah dibuat
       table.innerHTML = `
             <tr>
+            <th>No</th>
               <th>Nama</th>
               <th>NISN</th>
               <th>Jenis Kelamin</th>
@@ -43,9 +44,10 @@ async function ambilData() {
           `;
 
       // menggunakan foEach untuk menampilkan data siswa berdasarkan kelas yang telah dibuat
-      dataSiswaKelas.forEach((item) => {
+      dataSiswaKelas.forEach((item, index) => {
         table.innerHTML += `
           <tr>
+            <td>${index + 1}</td>
             <td>${item.nama}</td>
             <td>${item.nisn}</td>
             <td>${item.jenisKelamin}</td>
@@ -104,6 +106,7 @@ async function ambilData() {
 
           table.innerHTML = `
           <tr>
+          <th>No</th>
             <th>Nama</th>
             <th>NISN</th>
             <th>Jenis Kelamin</th>
@@ -113,7 +116,7 @@ async function ambilData() {
           </tr>
         `;
 
-          dataSiswaKelas.forEach((item) => {
+          dataSiswaKelas.forEach((item, index) => {
             if (
               item.nama.toLowerCase().includes(keyword) ||
               item.nisn.includes(keyword) ||
@@ -121,6 +124,7 @@ async function ambilData() {
             ) {
               table.innerHTML += `
               <tr>
+                <td>${index + 1}</td>
                 <td>${item.nama}</td>
                 <td>${item.nisn}</td>
                 <td>${item.jenisKelamin}</td>
@@ -138,9 +142,10 @@ async function ambilData() {
           const dataSiswaKelasAwal = dataSiswa.filter(
             (item) => item.kelas === kelas
           );
-          dataSiswaKelasAwal.forEach((item) => {
+          dataSiswaKelasAwal.forEach((item, index) => {
             table.innerHTML += `
               <tr>
+                <td>${index + 1}</td>
                 <td>${item.nama}</td>
                 <td>${item.nisn}</td>
                 <td>${item.jenisKelamin}</td>

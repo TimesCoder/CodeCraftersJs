@@ -1,11 +1,11 @@
 [
   {
     "kelas": "X1",
-    "nama": "Budi",
-    "nip": "09876",
+    "nama": "Ando",
+    "nip": "08126",
     "noHp": "08123456600",
-    "jenisKelamin": "Perempuan",
-    "bidangStudy": "Ekonomi",
+    "jenisKelamin": "Pria",
+    "bidangStudy": "Sejarah",
     "waliKelas": false,
     "absen": true,
     "hari": "Senin",
@@ -13,47 +13,11 @@
   },
   {
     "kelas": "X1",
-    "nama": "nina",
-    "nip": "09876",
+    "nama": "Andri",
+    "nip": "07232",
     "noHp": "08123456600",
-    "jenisKelamin": "Perempuan",
-    "bidangStudy": "Ekonomi",
-    "waliKelas": true,
-    "absen": false,
-    "hari": "Senin",
-    "tanggal": "2023-10-30"
-  },
-  {
-    "kelas": "X1",
-    "nama": "Guru Kelas X1",
-    "nip": "09876",
-    "noHp": "08123456600",
-    "jenisKelamin": "Perempuan",
-    "bidangStudy": "Ekonomi",
-    "waliKelas": false,
-    "absen": true,
-    "hari": "Senin",
-    "tanggal": "2023-10-30"
-  },
-  {
-    "kelas": "X1",
-    "nama": "Guru Kelas X1",
-    "nip": "09876",
-    "noHp": "08123456600",
-    "jenisKelamin": "Perempuan",
-    "bidangStudy": "Ekonomi",
-    "waliKelas": false,
-    "absen": true,
-    "hari": "Senin",
-    "tanggal": "2023-10-30"
-  },
-  {
-    "kelas": "X1",
-    "nama": "Guru Kelas X1",
-    "nip": "09876",
-    "noHp": "08123456600",
-    "jenisKelamin": "Perempuan",
-    "bidangStudy": "Ekonomi",
+    "jenisKelamin": "Pria",
+    "bidangStudy": "Olahraga",
     "waliKelas": false,
     "absen": true,
     "hari": "Senin",
@@ -1105,11 +1069,14 @@
   },
   {
     "kelas": "X1",
-    "nama": "Sit",
-    "nisn": "987654322",
-    "jenisKelamin": "Perempuan",
-    "alamat": "Jalan Mawar",
-    "email": "siti@example.com",
-    "nomorHpOrangTua": "0812345688321"
+    "nama": "Selamet",
+    "nip": "03213",
+    "noHp": "08123456321",
+    "jenisKelamin": "Pria",
+    "bidangStudy": "Sastra",
+    "waliKelas": true,
+    "absen": true,
+    "hari": "Senin",
+    "tanggal": "2023-10-30"
   }
 ]
